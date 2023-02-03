@@ -1,5 +1,7 @@
 # Work from here
+
 https://ashejim.github.io/C769/intro.html
 
 # Good example stuff here:
+
 https://github.com/ashejim/C769/blob/main/resources/examples/BSNOS/example_task1-bsnos-b.pdf
