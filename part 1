@@ -1,0 +1,41 @@
+IT Capstone Topic Approval Form
+The purpose of this document is to help you clearly explain your capstone topic, project scope, and timeline, and to assure that they align with your degree emphasis. Without clearly addressing each of these areas, you will not have a complete and realistic overview of your project and your Course Instructor cannot accurately assess whether your project will be doable for the purposes of these courses. 
+Of course, if this is a project that you have already completed at work or elsewhere, this should be easy to fill in! Most students use a project that they have already completed in the past year or two. In that case, you will write the proposals (Tasks 1 and 2) as if the project has not been done yet, and Task 3 as the complete post-implementation report.  
+Complete this form and send it (via UGCapstoneIT@WGU.edu) to your Course Instructor for approval.  Once approved, you will receive a signed document in PDF format that you can upload as part of Task 1.
+
+DEGREE EMPHASIS:  Network operations and security 
+
+ANALYSIS:
+Project Topic – B&B Manufacturing is a producer of complex machined parts, assemblies and kits for the aerospace, military, semiconductor, and contract manufacturing markets.The problem they are facing is that employees have made several complaints pertaining to slow connections to on premise resourses such as file stores ERP system and company wifi. Over the past few years they has added network connected devices such as cameras, shop floor touch screens and tooling and have plans to replace an aging phone system with an IP based one.
+
+Problem Statement or Project Purpose – customer network does not have any security/ sepration or quality of service. Security cameras share same traffic as production and 
+
+DESIGN and DEVELOPMENT:
+Project Scope
+a.	Project Goal(s) and Supporting Objectives –
+The overarching goal of this project is to provide B&B Manufacturing with a secure and reliable networking architecture with room for future growth.
+
+replace HP procurve switches and Linksys and successfully implement network security (vlans ACLs and QOS). Models slated for replacement are C9300-48P-E is 48-port PoE+
+
+b.	Objective 1: Site survey
+c.	Objective 2: Purchase hardware indetifed for replacement
+d.	Objective 3: Re-ip network devices re-define dhcp pools etc
+e.	Objective 4: Network testing
+f.	Objective 5: Go Live 
+
+g.	Project Outcomes and Deliverables – physical switches in each site and configured 
+
+h.	Projected Project End Date – May 2023
+
+IMPLEMENTATION and EVALUATION:
+Describe how you will approach the execution of your project – 
+Plan new network carving up allowing for room for growth
+Re-IP devices
+Configure devices before installing them
+Remove old and install new equipment 
+Preform network end to end network test (ping) 
+Train staff for maintence 
+
+
+COURSE INSTRUCTOR SIGNATURE:  
+COURSE INSTRUCTOR APPROVAL DATE:  
