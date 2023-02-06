@@ -11,6 +11,8 @@ why not dell ?
 terrible 802.1x implementaion
 https://www.gartner.com/reviews/market/data-center-and-cloud-networking/compare/cisco-vs-dell-technologies
 
+“Segmenting a network also leads to better performance due to less congestion. With fewer hosts per subnet, a segmented network minimizes local traffic and reduces the “noise” in broadcast traffic”
+
 why not arista?
 
 
