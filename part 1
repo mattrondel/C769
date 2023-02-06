@@ -24,12 +24,12 @@ i. Objective 1 Deliverables
 1. Updated network toplogogy diagram
 2. Site map
 3. Network inventory
-ii. Objective ii. Deliverables:
+ii. Objective 2. Deliverables:
 1.	Cisco 9300 Series switches
 2.	Stackwise cables
 3.	Cat 6 cabling
 4.	Fiber cabling 
-iii. Objective iii. Deliverables:
+iii. Objective 3. Deliverables:
 1.	Configured switches, configure to work with existing wireless acess points
 2.	RE-IP devices and new DHCP pools created
 3.	VLANS for departmental data security and quality of service
@@ -44,10 +44,9 @@ h.	Projected Project End Date – May 31 2023
 
 IMPLEMENTATION and EVALUATION:
 Describe how you will approach the execution of your project – 
-I will execute the implmetation of this project in several phases. In phase 1 I will conduct a site survery preform an inventory and a discovery on how the network is utilized. Phase 2 will requiring using findings from phase 1 to determine what equipment and resourses will be needed.. Phase 3 will began the implmeation phase where systems will be installed and configured, phase 4 will be the test and evaluation phase. 
+I will execute the implmetation of this project in several phases. In phase 1 I will conduct a site survery preforming an inventory and a discovery on how the network is utilized. Phase 2 will requiring using findings from phase 1 to determine what equipment and resourses will be needed. Phase 3 will began the implementation phase where systems will be installed and configured, phase 4 will be the test and evaluation phase. 
 To evaluate the suscces of the projecta seies of tests will be preformed to ensure that segmented VLAN traffic stays on its intended VLAN.
 
- “Segmenting a network also leads to better performance due to less congestion. With fewer hosts per subnet, a segmented network minimizes local traffic and reduces the “noise” in broadcast traffic”
-
+✔ This project does not involve human subjects research and is exempt from WGU IRB review.
 COURSE INSTRUCTOR SIGNATURE:  
 COURSE INSTRUCTOR APPROVAL DATE:  
