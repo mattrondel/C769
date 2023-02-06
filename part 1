@@ -4,57 +4,50 @@ Of course, if this is a project that you have already completed at work or elsew
 Complete this form and send it (via UGCapstoneIT@WGU.edu) to your Course Instructor for approval.  Once approved, you will receive a signed document in PDF format that you can upload as part of Task 1.
 
 DEGREE EMPHASIS:  Network operations and security 
+NAME: Matt Rondel
+PROGRAM MENTOR:  Don Cook
 
 ANALYSIS:
-Project Topic – B&B Manufacturing is a producer of complex machined parts, assemblies and kits for the aerospace, military, semiconductor, and contract manufacturing markets.The problem they are facing is that employees have made several complaints pertaining to slow connections to on premise resourses such as file stores ERP system and company wifi. Over the past few years the company has grown and they have added network connected devices such as cameras, shop floor touch screens and tooling. Along with growth the company has also stated they want to replace an aging phone system with an IP based one.
-
-Problem Statement or Project Purpose – customer network does not have any security/ sepration or quality of service. Security cameras share same traffic as production – this can be added to site survey notes
-
+Project Topic –Network upgrade - B&B Manufacturing is a producer of complex machined parts, assemblies and kits for the aerospace, military, semiconductor, and contract manufacturing markets.The problem they are facing is that employees have made several complaints pertaining to slow connections to on premise resourses such as file stores ERP system and company wifi. Over the past few years the company has grown and they have added more network connected devices such as cameras, shop floor touch screens and tooling. Along with growth the company has also stated they want to replace an aging phone system with an IP based one.
+Problem Statement or Project Purpose –B&B Manufacturing’s network is slow due to company growth and has no network segmentation or security. New switches will be installed and configured network documentation delivered along with training for IT staff.
 DESIGN and DEVELOPMENT:
 Project Scope
 a.	Project Goal(s) and Supporting Objectives –
 The overarching goal of this project is to provide B&B Manufacturing with a secure and reliable networking architecture with room for future growth.
-
-replace HP procurve switches and Linksys and successfully implement network security (vlans ACLs and QOS). Models slated for replacement are C9300-48P-E is 48-port PoE+
-
 b.	Objective 1: Site survey
-c.	Objective 2: Purchase hardware indetifed for replacement
-d.	Objective 3: Re-ip network devices re-define dhcp pools etc
+c.	Objective 2: Purchase hardware identified for replacement
+d.	Objective 3: Establish new networks, Re-IP network devices and create new dhcp pools
 e.	Objective 4: Network testing
 f.	Objective 5: Go Live 
-
 g.	Project Outcomes and Deliverables – physical switches installed and configured 
 i. Objective 1 Deliverables
-Updated network toplogogy diagram
-Site map
-Network inventory
+1. Updated network toplogogy diagram
+2. Site map
+3. Network inventory
 ii. Objective ii. Deliverables:
-Cisco 9300 Series switches
-Stackwise cables
-Cat 6 cabling
-Fiber cabling 
+1.	Cisco 9300 Series switches
+2.	Stackwise cables
+3.	Cat 6 cabling
+4.	Fiber cabling 
 iii. Objective iii. Deliverables:
-configured switches, configured existing wireless 
-VLANS for departmental data security and quality of service
-Installed cabling
+1.	Configured switches, configure to work with existing wireless acess points
+2.	RE-IP devices and new DHCP pools created
+3.	VLANS for departmental data security and quality of service
+4.	Installed cabling
 iv:. Objective 4. Deliverables:
 Detailed system test report
 V: Objective 5. Deliverables:
-Old switching equipment returned to IT department for disposition
-New equipment is up and running with out issue
-IT staff is trainined 
-
-h.	Projected Project End Date – May 2023
+1.	Old switching equipment returned to IT department for disposition
+2.	New equipment is up and running without issue
+3.	IT staff is trained
+h.	Projected Project End Date – May 31 2023
 
 IMPLEMENTATION and EVALUATION:
 Describe how you will approach the execution of your project – 
-Plan new network carving up allowing for room for growth
-Re-IP devices
-Configure devices before installing them
-Remove old and install new equipment 
-Preform network end to end network test (ping) 
-Train staff for maintence 
+I will execute the implmetation of this project in several phases. In phase 1 I will conduct a site survery preform an inventory and a discovery on how the network is utilized. Phase 2 will requiring using findings from phase 1 to determine what equipment and resourses will be needed.. Phase 3 will began the implmeation phase where systems will be installed and configured, phase 4 will be the test and evaluation phase. 
+To evaluate the suscces of the projecta seies of tests will be preformed to ensure that segmented VLAN traffic stays on its intended VLAN.
 
+ “Segmenting a network also leads to better performance due to less congestion. With fewer hosts per subnet, a segmented network minimizes local traffic and reduces the “noise” in broadcast traffic”
 
 COURSE INSTRUCTOR SIGNATURE:  
 COURSE INSTRUCTOR APPROVAL DATE:  
