@@ -6,6 +6,11 @@ https://ashejim.github.io/C769/intro.html
 
 https://github.com/ashejim/C769/blob/main/resources/examples/BSNOS/example_task1-bsnos-b.pdf
 
+# BSNOS Examples
+https://github.com/ashejim/C769/tree/main/resources/examples/BSNOS
+
+https://ashejim.github.io/C769/resources.html#resources-examples
+
 # Ideas for paper:
 why not dell ?
 terrible 802.1x implementaion
