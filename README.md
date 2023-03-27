@@ -11,6 +11,8 @@ https://github.com/ashejim/C769/tree/main/resources/examples/BSNOS
 
 https://ashejim.github.io/C769/resources.html#resources-examples
 
+https://westerngovernorsuniversity.sharepoint.com/sites/capstonearchives/excellence/Pages/UndergraduateInformation.aspx
+
 # Ideas for paper:
 why not dell ?
 terrible 802.1x implementaion
