@@ -11,7 +11,11 @@ https://github.com/ashejim/C769/tree/main/resources/examples/BSNOS
 
 https://ashejim.github.io/C769/resources.html#resources-examples
 
-https://westerngovernorsuniversity.sharepoint.com/sites/capstonearchives/excellence/Pages/UndergraduateInformation.aspx
+https://westerngovernorsuniversity.sharepoint.com/sites/capstonearchives/excellence/Pages/UndergraduateInformation.aspx\
+
+timeline ideas are good here:
+
+https://westerngovernorsuniversity.sharepoint.com/sites/capstonearchives/excellence/Attachments/Tyler%20Berghuis-1169/Capstone%20Written%20Report-TylerBerghuis(secure).pdf
 
 # Ideas for paper:
 why not dell ?
