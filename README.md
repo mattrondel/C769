@@ -1,12 +1,15 @@
-# Work from here
+# Task 2 stuff here:
+https://ashejim.github.io/C769/resources.html#resources-examples
+
+## Work from here
 
 https://ashejim.github.io/C769/intro.html
 
-# Good example stuff here:
+## Good example stuff here:
 
 https://github.com/ashejim/C769/blob/main/resources/examples/BSNOS/example_task1-bsnos-b.pdf
 
-# BSNOS Examples
+## BSNOS Examples
 https://github.com/ashejim/C769/tree/main/resources/examples/BSNOS
 
 https://ashejim.github.io/C769/resources.html#resources-examples
@@ -17,7 +20,7 @@ timeline ideas are good here:
 
 https://westerngovernorsuniversity.sharepoint.com/sites/capstonearchives/excellence/Attachments/Tyler%20Berghuis-1169/Capstone%20Written%20Report-TylerBerghuis(secure).pdf
 
-# Ideas for paper:
+## Ideas for paper:
 why not dell ?
 terrible 802.1x implementaion
 https://www.gartner.com/reviews/market/data-center-and-cloud-networking/compare/cisco-vs-dell-technologies
