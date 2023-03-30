@@ -1,0 +1,182 @@
+
+
+
+
+
+
+
+
+
+
+
+Network Upgrade for B & B Manufacturing
+Matthew J Rondel
+Western Governors University 
+
+
+  
+Table of Contents  -WORRY ABOUT THIS LATER WHEN CONTENT IS IN
+A.	Proposal Overview	2
+A.1 Problem Summary	3
+A.2 IT Solution	3
+A.3 Implementation Plan	3
+B.	Review of Other Works and B .1 Relation of Artifacts to Project Development	3
+Review of work 1	4
+Review of work 2	4
+Review of work 3	4
+Review of work 4	4
+C. Project Rationale	5
+D. Current Project Environment	5
+E. Methodology	5
+F. Project Goals, Objectives, and Deliverables	6
+F1. Goals, Objectives, and Deliverables Table	6
+F.2 Goals, Objectives, and Deliverables Descriptions	7
+G.	Project Timeline with Milestones	7
+H.	Outcome	8
+I.	References	8
+Appendix A	10
+Title of Appendix	11
+Appendix B	11
+Title of Appendix	12
+Appendix C	12
+Title of Appendix	13
+Appendix D	13
+Title of Appendix	14
+
+ 
+Proposal Overview 
+B&B Manufacturing is a producer of complex machined parts, assemblies and kits for the aerospace, military, semiconductor, and contract manufacturing markets. Since the Biden Administration has pushed to bring more manufacturing jobs back to America B & B manufacturing has seen tremendious growth and because of this employees have made several complaints pertaining to slow connections to on premise resourses such as file stores ERP system and wifi.. Along with growth the company has also stated they want to replace an aging phone system with an IP based one.
+Outside of minor repairs such as a defective switch or cable B &B Manufacturing existing network has not seen any changes for over 13 years. And is starting to show its age.
+The Proposal Overview section (suggested length of 2–4 pages) introduces the problem and overviews the solution. It contains the "road map" for the rest of the paper. First, describe the problem the project addresses and then provide an overview of the project and the paper's organization. Finally, summarize the capstone's highlights. Include the following in your summary:
+The proposed 
+A.1 Problem Summary
+
+Summaries of the problem should include the context in which this problem exists. Summarize what will and will not be included in the project. Provide sufficient background information so that the reader can appreciate the need for a solution and the approach taken in the project.
+A.2 IT Solution
+Describe the proposed IT solution to the problem. Identify the relationship between the problem and the proposed solution.
+A.3 Implementation Plan 
+This section should contain the details of an implementation plan. First, provide details on the different phases (if applicable). Then, explain how the project will be carried out and why it will be carried out in that manner. Finally, discuss the plan for implementing the project.
+Best Practice Recommendations for the Catalyst 9300
+https://www.cisco.com/c/en/us/support/switches/catalyst-9300-series-switches/products-installation-and-configuration-guides-list.html
+A.	Review of Other Works and B .1 Relation of Artifacts to Project Development
+●	See Task 2 part B & B.1 and watch Review of Other Work
+This section reviews works done by a third party relevant and related to your project. Review at least four other works relating to your topic. Summarize (in satisfaction of B) online articles, videos, interviews, white papers, case studies etc., produced by industry professionals, and relate (in satisfaction of B1) each work to the proposed development of the project. 
+●	Any citable work produced by an industry professional is acceptable, e.g., whitepaper, online articles, manuals, videos, etc. 
+●	The work only needs to relate to an aspect of your project, e.g., applied technology, a methodology used, risks, benefits, costs, etc. 
+Review of work 1
+Start with an overview of the article, including the work's title and an in-text citation, and summarize the major points discussed. Describe how the work relates to the proposed development of the project (in fulfillment of part B1).
+Review of work 2
+Start with an overview of the article, including the work's title and an in-text citation, and summarize the major points discussed. Describe how the work relates to the proposed development of the project (in fulfillment of part B1).
+Review of work 3
+Start with an overview of the article, including the work's title and an in-text citation, and summarize the major points discussed. Describe how the work relates to the proposed development of the project (in fulfillment of part B1).
+Review of work 4
+Start with an overview of the article, including the work's title and an in-text citation, and summarize the major points discussed. Describe how the work relates to the proposed development of the project (in fulfillment of part B1). 
+
+C. Project Rationale
+
+●	View Writing the Rationale and Current Environment Sections.
+-this is based on the past , no right or wrong only the need to offere sufficient support. Usually rooted in business, tchical or user needs. No right or wrong only one that makes sense
+Summaries should include the rationale for choosing this project, including what makes this problem interesting or significant. The Project Rationale section (suggested length of 1–2 pages) provides a rationale for the project. It should address the reasons for implementing the project, as described in the Proposal Overview. The rationale may include and expand on business and technical reasons to support the implementation. Justify the selection of the project.
+
+D. Current Project Environment
+●	View Writing the Rationale and Current Environment Sections.
+Upon site survey discovered obsoitie HP procurve and Linksys Power over Ethernet (POE) swtiches
+-This is based on the present. Thisis describing how things currently work, whats wrong with the current system of state of affairs , then the proposed solution and how it addreeeses whats wrong. Don’t assume how the reader will understand how this will fix things. Tell them how including what problems might arise with the solution and what long term impacts we might resonaly expect potential problems and expectations are an excellent thing to include.
+This section (suggested length of 2–3 pages) describes and details the current project environment. It should also address specifically how the current state will set the direction for the definition and implementation of the proposed solution. Include other details that support the description as needed to support and briefly define the project environment. Analyze the systems and describe the status of the project environment before the project begins. 
+
+E. Methodology
+
+●	View Writing the Methodology, Goals, Objectives, and Deliverables Sections.
+This section (suggested length of 1–2 pages) describes the specific methodology. The methodology is the process that the project will fill when implemented. Include specific details to adequately describe the steps that will take place to execute the project entirely. Explain how your standard methodology (such as ADDIE or SDLC) will apply to the implementation of the project.
+●	Identify the standard methodology used. 
+●	Directly connect steps taken in your process to development phases of the standard methodology, e.g., analysis, design, etc.
+
+F. Project Goals, Objectives, and Deliverables
+●	View Writing the Methodology, Goals, Objectives, and Deliverables Sections.
+In Project Goals, Objectives, and Deliverables (suggested length of 3–5 pages), provide a detailed explanation of the goals and objectives for the project and explain what the project will provide. There should be a specific identification of each goal and objective and a clear and logical description with adequate detail. Address and explain the criteria used to measure the objectives to demonstrate how each goal and objective is measured. The project will include a formal report. In addition, it will likely have a technical IT product, a user's manual, or other documentation. Deliverables should provide a detailed logical explanation of the project to substantiate the work and completion. Include the following in the description: 
+F1. Goals, Objectives, and Deliverables Table
+●	View Writing the Methodology, Goals, Objectives, and Deliverables Sections.
+Every project has one or more goals. Each goal is supported by at least one project objective. Each objective is enabled by at least one project deliverable. Fill out this or a similarly organized table:
+
+	Goal	Supporting objectives	Deliverables enabling the project objectives
+1	Summarize project goal 1	1.a. Describe project objective 1.a.	1.a.i. Explain project deliverable 1.a.i
+			1.a.ii. Explain project deliverable 1.a.ii
+			…
+		1.b. Describe project objective 1.b.	1.b.i. Explain project deliverable 1.b.i
+			1.b.ii. Explain project deliverable 1.b.ii
+			…
+		…	…
+			…
+			…
+2	Summarize project goal 2	2.a. Describe project objective 2.a.	2.a.i. Explain project deliverable 2.a.i
+			2.a.ii. Explain project deliverable 2.a.ii
+			…
+		2.b. Describe project objective 2.b.	2.b.i. Explain project deliverable 2.b.i
+			2.b.ii. Explain project deliverable 2.b.ii
+			…
+		…	…
+			…
+			…
+…	…	…
+	…
+			…
+			…
+		…
+	…
+			…
+			…
+		…	…
+             
+F.2 Goals, Objectives, and Deliverables Descriptions
+Describe each of the project goals. Describe each objective. Explain how the objectives support the goals and explain how the objectives will be achieved. Explain what types of deliverables the project will provide, and describe the project deliverables expected by the end of the project. Finally, define the goals, objectives, and deliverables that align with the Goals, Objectives, and Deliverables Table.
+
+G.	Project Timeline with Milestones
+●	View Writing the Timeline and Outcomes Sections.
+This section (suggested length of 1–2 pages) provides a projected timeline with milestones for the project. These may be estimates that will most likely be adjusted, as the project will often require adjustments during the development and implementation phases. 
+●	Include a narrative describing each milestone.
+●	Include a table (as below) with projected milestones, duration, start, and end dates. Projections should be as authentic as possible without regard to academic plans. Dates from task 2 must be in the future, and dates from task 3 must be in the past -they do not need to align.  
+Milestone or deliverable	Duration 
+(hours or days)	Projected start date	Anticipated end date
+			
+			
+
+H.	Outcome
+●	View Writing the Timeline and Outcomes Sections.
+This section describes the anticipated project outcomes and explains how the project's success will be measured once completed. Next, define the expected project outcomes and describe the evaluation framework to be used once the project is completed to assess the project's success and effectiveness.
+ 
+I.	References 
+●	List all the outside sources that the narrative refers to in the text.
+●	Only list references with matching in-text citations.
+●	Sources and grammar are the most common reasons for rejected submission.  
+o	Evaluators use grammarly.com. The free side of gramamrly.com has been sufficient for this project.
+o	We recommend using MS Word's 'reference' feature to manage citations and your reference page. Use this APA Quick Reference, follow the style of this Task 2 Proposal Example, and these formatting guidelines:
+▪	For B. Other Works have at least four different works referenced using in-text citations.
+▪	For every reference listed, have at least one in-text citation in APA style.
+▪	Use consistent formatting.
+▪	Use hanging Indent.
+▪	Right-click to remove hyperlinks.
+o	Get the best writing help from the writing experts: WGU Writing Center. You can set up an appointment or send them your document for review and suggestions. 
+
+Smyth, A. M., Parker, A. L., & Pease, D. L. (2002). A study of enjoyment of peas. Journal of Abnormal Eating, 8(3), 120-125. Retrieved from 
+http://www.articlehomepage.com/full/url/
+Bernstein, M. (2002). 10 tips on writing the living Web. A List Apart: For People Who Make Websites, 149. Retrieved from http://www.alistapart.com/articles/writeliving
+Bell, T., & Phillips, T. (2008, May 6). A solar flare. Science @ NASA Podcast. Podcast retrieved from http://science.nasa.gov/podcast.htm
+OLPC Peru/Arahuay. (n.d.). Retrieved April 29, 2011, from the OLPC Wiki: http://wiki.laptop. org/go/OLPC_Peru/Arahuay
+Plath, S. (2000). The unabridged journals. K. V. Kukil (Ed.). New York, NY: Anchor.
+
+
+
+
+ 
+Appendix A
+Title of Appendix
+Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed. 
+Appendix B
+Title of Appendix
+Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed. 
+Appendix C
+Title of Appendix
+Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed. 
+Appendix D
+Title of Appendix
+Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed.
