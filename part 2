@@ -45,8 +45,9 @@ Title of Appendix	14
 
  
 Proposal Overview 
-B&B Manufacturing is a producer of complex machined parts, assemblies and kits for the aerospace, military, semiconductor, and contract manufacturing markets. Since the Biden Administration has pushed to bring more manufacturing jobs back to America B & B manufacturing has seen tremendious growth and because of this employees have made several complaints pertaining to slow connections to on premise resourses such as file stores ERP system and wifi.. Along with growth the company has also stated they want to replace an aging phone system with an IP based one.
-Outside of minor repairs such as a defective unit or cable B&B’s existing network has not seen any changes for over 13 years. B&B is a spread across 5 adjacent buildings with primary servers in one building and network equipment in another. Upon inspection several obsolete HP procurve 1810G unmanged switches were found as the “main network” backbone” as the local IT called it along with numerious Linksys SG300 power over Ethernet (POE) switches used for IPsecuirty cameras. Also worth metioning the aircondtioning stsmes in all 5 building are sharing the same network. For their firewall .. maybe not this tz-104? Move this 
+B&B Manufacturing is a medium sized company of 250 employees located in Valencia, CA. The company consists of 5 adjacent buildings including administration, assembly, manufacturing and maintenance. (authors note:  bldg. 1 and 2 will be mfg, bldg. 5 maintenance,  2 admin, and 3 assembly)
+producer of complex machined parts, assemblies and kits for the aerospace, military, semiconductor, and contract manufacturing markets. Since the Biden Administration has pushed to bring more manufacturing jobs back to America B & B manufacturing has seen tremendous growth and because of this employees have made several complaints pertaining to slow connections to on premise resources such as file stores ERP system and wifi. Along with growth the company has also stated they want to replace an aging phone system with an IP based one.
+Outside of minor repairs such as a defective unit or cable B&B’s existing network has not seen any changes for over 13 years. B&B is a spread across 5 adjacent buildings with primary servers in one building and network equipment in another. Upon inspection several obsolete HP procurve 1810G unmanged switches were found as the “main network” backbone” as the local IT called it along with numerious Linksys SG300 power over Ethernet (POE) switches used for IPsecuirty cameras. Also worth metioning the air condtioning stsmes in all 5 building are sharing the same network. For their firewall .. maybe not this tz-104? Move this 
 Management network?
 
 The Proposal Overview section (suggested length of 2–4 pages) introduces the problem and overviews the solution. It contains the "road map" for the rest of the paper. First, describe the problem the project addresses and then provide an overview of the project and the paper's organization. Finally, summarize the capstone's highlights. Include the following in your summary:
@@ -181,4 +182,4 @@ Title of Appendix
 Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed. 
 Appendix D
 Title of Appendix
-Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed.
+Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed.`
