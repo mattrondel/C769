@@ -53,16 +53,21 @@ Phase 2 of the project consisted of designing the network, including the new IP 
 Phase 3 (authors note swap out these phases if they don’t align with task 1 paper) began with receiving, verifying and configuring the new equipment. The new equipment was powered up and configured at the administration building and installed at the corresponding building location. 
 The process was carried out one building at a time beginning with the core of the network - Building 2 administration main distribution frame (MDF) then progressing to each intermediate distribution frame (IDF) within the building. Throughout this document, the main distribution frame (MDF) refers to the central connection point for each of the buildings to the rest of the network and IDFs refers to the smaller network closets within the buildings across the corporate campus. The justification for this approach was that it minimized the downtime of each of the buildings and any problems that might arise could be addressed without affecting the rest of the company. (Problem isolation?)
 
-
+Two tier or leaf and spine architecture
 
 Authors note: incorporate Spanning tree previous issue somehow into the issue of future proofing: access, distribution and core
 Authors note: 
 A distribution switch handles local routing, filtering, traffic balancing, QoS priority management, and security mechanisms, IP address conversion, traffic shaping, and multicast management based on the user traffic of the access layer, according to which then forward user traffic to the core switching layer or route
 A core switch is the network switch installed at the backbone of the layered or hierarchy network. These data switches are responsible for routing and data switching at the core layer of the network.
 An access switch allows users to connect to the network. On this account, access switch is normally endowed with the supportable features of port security, VLANs
-The Cisco hierarchical model, also known as the hierarchical internetworking model, is a three-layer model for network design which is widely used in industry. It divides enterprise networks into three layers: core, distribution and access layer. – sounds good enough for the compare other work section https://www.fiber-optic-solutions.com/access-switch-need.html
+The Cisco hierarchical model, also known as the hierarchical internetworking model, is a two-layer model for network design which is widely used in industry. It divides enterprise networks into two layers: core, distribution and access layer. – sounds good enough for the compare other work section https://www.fiber-optic-solutions.com/access-switch-need.html
 Review of Other work
+Migrating and standardizing on a manufacturer for network equipment simplifies the administration and reduces network management overhead. During this process, extensive research was done to search for advice, tips and similar outcomes to gauge the success of the project. According to Cisco_ best practice guide, it is recommended to do _ (cisco, year). The two-tier campus design or vlan document
+According to the VLAN Best Practices and Security tips Guide
+https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/1778-tz-VLAN-Best-Practices-and-Security-Tips-for-Cisco-Business-Routers.html
 
+Remember these existing switches are unmanaged meaning plug and play devices without the need for complex setup. They come with a fixed configuration and no not allow any changes to their configuration. Managed switch allows for better control, prioritization, of network traffic
+There tier network plus vlans 
 
 
 
