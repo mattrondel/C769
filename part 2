@@ -65,7 +65,7 @@ It was determined that B&B would benefit greatly by creating VLANs for similar d
 Changes to the Project Environment
 	B&B fundamental but very obsolete setup. Within the server room in building 2 there was 
 
- several Netgear unmanaged 24 port JFS524 10/100 switches, a SonicWALL NSA 220 Firewall, the IP-based cameras were connected to Linksys SRW2024 power-over-Ethernet (POE) switches.
+ Several Netgear unmanaged 24 port JFS524 10/100 switches, a SonicWALL NSA 220 Firewall, the IP-based cameras were connected to Linksys SRW2024 power-over-Ethernet (POE) switches.
 Author note: Main server room MDF: ISP modem <-> sonicwall <-> netgear 
 Netgear<-> servers 
 Netgear <-> Linksys POE switches (2)
