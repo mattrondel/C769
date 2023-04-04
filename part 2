@@ -58,13 +58,20 @@ Vlans, re-ip networks
 
 Authors note: incorporate Spanning tree previous issue somehow into the issue of future proofing: 
 Review of Other work
-Migrating and standardizing on a manufacturer for network equipment simplifies the administration and reduces network management overhead. During this process, extensive research was done to search for advice, tips and similar outcomes to gauge the success of the project. According to Ciscos_ best practice guide, it is recommended best practice to deploy a two tier network architecture design or also referred to as leaf and spine.
+Migrating and standardizing on a manufacturer for network equipment simplifies the administration and reduces network management overhead. During this process, extensive research was done to search for advice, tips and similar outcomes to gauge the success of the project. According to Ciscos_ best practice guide, it is recommended best practice to deploy a two tier network architecture design or also referred to as leaf and spine because of ____ (Cisco, date). The two tear network or leaf/spine consists of ___. The leaf layer is the first tier of the campus where end user devices such as computers, printers phones, IP-based cameras connect to the network. The spine or __ is where the heart of the network where servers and network storage devices reside. 
+	After the physical design of the network was completed, it was time to design the logical layout.  The original network was a flat network meaning it had no IP address security segmentation or Virtual lans (VLANs). A VLAN is a logical group of workstations, servers, and network devices ___ definition from an article hopefully find how vlans help with network traffic or speed (Cisco, DATE). 
+
+
+
  According to the VLAN Best Practices and Security tips Guide?
 https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/1778-tz-VLAN-Best-Practices-and-Security-Tips-for-Cisco-Business-Routers.html
 Dell practice guide
 https://infohub.delltechnologies.com/static/media/a6db0ca1-66bd-46bd-a955-8f3604395191.pdf
 Cisco reasoning behind 2 tier in our case:
 https://www.ciscopress.com/articles/article.asp?p=2202410
+or :
+https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/cisco-campus-lan-wlan-design-guide.html
+
 
 
 Remember these existing switches are unmanaged meaning plug and play devices without the need for complex setup. They come with a fixed configuration and no not allow any changes to their configuration. Managed switch allows for better control, prioritization, of network traffic
