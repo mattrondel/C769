@@ -63,8 +63,13 @@ Migrating and standardizing on a manufacturer for network equipment simplifies t
 It was determined that B&B would benefit greatly by creating VLANs for similar devices and groups such as servers, IP-based cameras, shop, guests, IT management and the future IP-based phones. Per Cisco’s best practices article “quote here if you can” recommendation the default VLAN would be changed and a “parked” VLAN would be created to place unused ports in until they are needed. Access control lists (ACLs) would be created as well to either permit or deny access to resources such as printers, servers or devices with confidential information.
 	After the information was gathered for the physical and logical design of the new network it was time to look into prioritizing and routing traffic. Since B&B had expressed interest in upgrading to an IP-based phone system in the future it was extremely important to incorporate this future proofing into the network design. Go into detail on an important need of IP based phone system like jitter
 Changes to the Project Environment
-	B&B fundamental but very obsolete setup. Within the Core server room in building 2 there was several Netgear unmanaged 24 port JFS52410/100 switches, a SonicWALL NSA 220 Firewall, the IP-based cameras were connected to Linksys SRW2024 power-over-Ethernet (POE) switches
+	B&B fundamental but very obsolete setup. Within the server room in building 2 there was 
 
+ several Netgear unmanaged 24 port JFS524 10/100 switches, a SonicWALL NSA 220 Firewall, the IP-based cameras were connected to Linksys SRW2024 power-over-Ethernet (POE) switches.
+Author note: Main server room MDF: ISP modem <-> sonicwall <-> netgear 
+Netgear<-> servers 
+Netgear <-> Linksys POE switches (2)
+In the rear of the building 2 in the IDF there was 4 of the netgear switches connected together with cat 5 cable with one of them being home run to the MDF with a 100mbs Ethernet cable
 
 
 
