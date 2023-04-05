@@ -71,7 +71,7 @@ Netgear<-> servers
 Netgear <-> Linksys POE switches (2)
 In the rear of the building 2 in the IDF there was 4 of the netgear switches connected together with cat 5 cable with one of them being home run to the MDF with a 100mbs Ethernet cable
 
-(Side note propbley wont keepremember these existing switches are unmanaged meaning plug and play devices without the need for complex setup. They come with a fixed configuration and no not allow any changes to their configuration. Managed switch allows for better control, prioritization, of network traffic
+(Side note probly wont keep remember these existing switches are unmanaged meaning plug and play devices without the need for complex setup. They come with a fixed configuration and no not allow any changes to their configuration. Managed switch allows for better control, prioritization, of network traffic
 two tier network plus vlans )
 The current network design was a flat network with no IP segmentation or security. The problem with this setup that if a broadcast packet is sent out from an end device in building 1, that broadcast packet is sent to every building and network device connected to the network. One of the issues in the past the On-site IT staff mentioned is that they had experienced a network loop and had crashed the company network and taken it down for a few days. A network loop is caused when a patch cable gets plugged in from one network port directly to another. This causes the packets to reflect back to the source in which locks up the switch.
 The issue with lack of network segmentation is that when a customer or supplier joins the network to do a presentation any malicious software or virus that could be present on their computer could inflect the entire company. 
