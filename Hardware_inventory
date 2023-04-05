@@ -1,0 +1,91 @@
+------------------------------------------------------------------------------
+Hardware inventory
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+Before 
+------------------------------------------------------------------------------
+Bldg 1
+---------------------------------------
+(4) Netgear unmanaged 24 port JFS524 10/100 switches
+(4) Linksys SRW2024 power-over-Ethernet (POE) switches.
+
+Bldg 2
+---------------------------------------
+MDF core
+ISP modem 
+SonicWALL NSA 220 Firewall
+(2) Netgear unmanaged 24 port JFS524 10/100 switches
+(2) Linksys SRW2024 power-over-Ethernet (POE) switches.
+1 copper line going to IDF (no fail-over)
+
+IDF
+(3) Netgear unmanaged 24 port JFS524 10/100 switches
+
+Bldg 3
+---------------------------------------
+IDF
+(2) Netgear unmanaged 24 port JFS524 10/100 switches
+(2) Linksys SRW2024 power-over-Ethernet (POE) switches.
+
+Bldg 4
+---------------------------------------
+IDF
+(4) Netgear unmanaged 24 port JFS524 10/100 switches
+(4) Linksys SRW2024 power-over-Ethernet (POE) switches.
+
+Bldg 5
+---------------------------------------
+IDF
+(2) Netgear unmanaged 24 port JFS524 10/100 switches
+(2) Linksys SRW2024 power-over-Ethernet (POE) switches.
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+AFTER
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+Bldg 1
+---------------------------------------
+(5) 9300 stacked one addional for phones
+
+Bldg 2
+---------------------------------------
+MDF core
+ISP modem 
+
+Juniper srx 1500 configured with LACP 
+SRX1500 with 16x1G, 4x10G (SFP+) on-board ports, 1x AC PSU and 120GB SSD
+part #SRX1500-AC
+
+(5) 9300 stacked one addional for phones
+reduntant lines to IDF using portchannel
+
+IDF
+(4) stacked Cisco 9300 , one extra for phones
+
+Bldg 3
+---------------------------------------
+IDF
+(5) 9300 stacked one addional for phones
+
+Bldg 4
+---------------------------------------
+IDF
+(5) 9300 stacked one addional for phones
+
+Bldg 5
+---------------------------------------
+IDF
+(5) 9300 stacked one addional for phones
+------------------------------------------------------------------------------
+
+extra thoughts 
+24 or 48 port switches?
+
+all links between buildings beofre are copper now 10g
+Cisco C9300-NM-8X Catalyst 9300 Series Network Expansion Module
+
+2 sfps for 10g portchannel
+
+Cisco - SFP+ transceiver module - 10 GigE
+MFG.PART: SFP-10G-SR= C
