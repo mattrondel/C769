@@ -60,8 +60,8 @@ Authors note: incorporate Spanning tree previous issue somehow into the issue of
 Review of Other work
 Migrating and standardizing on a manufacturer for network equipment simplifies the administration and reduces network management overhead. During this process, extensive research was done to search for advice, tips and similar outcomes to gauge the success of the project. According to Ciscos_ best practice guide, it is recommended best practice to deploy a two tier network architecture design or also referred to as leaf and spine because of ____ (Cisco, date). The two tear network or leaf/spine consists of ___. The leaf layer is the first tier of the campus where end user devices such as computers, printers, phones, IP-based cameras connect to the network. The spine or core (?) is where the heart of the network where servers and network storage devices reside. 
 	After the physical design of the network was completed, it was time to design the logical layout.  The original network was a flat network meaning it had no IP address security segmentation or Virtual Local Area Networks (VLANs). A VLAN is a logical group of workstations, servers, and network devices ___ definition from an article hopefully find how VLANs help with network traffic or speed (Cisco, DATE). Authors note check out business routers article-
-It was determined that B&B would benefit greatly by creating VLANs for similar devices and groups such as servers, IP-based cameras, shop, guests, IT management and the future IP-based phones. Per Cisco’s best practices article “quote here if you can” recommendation the default VLAN would be changed and a “parked” VLAN would be created to place unused ports in until they are needed. Access control lists (ACLs) would be created as well to either permit or deny access to resources such as printers, servers or devices with confidential information.
-	After the information was gathered for the physical and logical design of the new network it was time to look into prioritizing and routing traffic. Since B&B had expressed interest in upgrading to an IP-based phone system in the future it was extremely important to incorporate this future proofing into the network design. Go into detail on an important need of IP based phone system like jitter
+It was determined that B&B would benefit greatly by creating VLANs for similar devices and groups such as servers, IP-based cameras, shop, guests, IT management and the future IP-based phones. Per Cisco’s best practices article “Create a “Dead End” VLAN for Unused Ports”(Cisco, 2020) recommendation the default VLAN would be changed and a “dead-end” VLAN would be created to place unused ports in until they are needed. Access control lists (ACLs) would be created as well to either permit or deny access to resources such as printers, servers or devices with confidential information.
+	After the information was gathered for the physical and logical design of the new network it was time to look into prioritizing and routing traffic. Since B&B had expressed interest in upgrading to an IP-based phone system in the future it was extremely important to incorporate this into the network design. Go into detail on an important need of IP based phone system like jitter
 Changes to the Project Environment
 	B&B fundamental but very obsolete setup. Within the server room in building 2 there was 
 
@@ -71,10 +71,10 @@ Netgear<-> servers
 Netgear <-> Linksys POE switches (2)
 In the rear of the building 2 in the IDF there was 4 of the netgear switches connected together with cat 5 cable with one of them being home run to the MDF with a 100mbs Ethernet cable
 
-
-
-Remember these existing switches are unmanaged meaning plug and play devices without the need for complex setup. They come with a fixed configuration and no not allow any changes to their configuration. Managed switch allows for better control, prioritization, of network traffic
-two tier network plus vlans 
+(Side note propbley wont keepremember these existing switches are unmanaged meaning plug and play devices without the need for complex setup. They come with a fixed configuration and no not allow any changes to their configuration. Managed switch allows for better control, prioritization, of network traffic
+two tier network plus vlans )
+The current network design was a flat network with no IP segmentation or security. The problem with this setup that if a broadcast packet is sent out from an end device in building 1, that broadcast packet is sent to every building and network device connected to the network. One of the issues in the past the On-site IT staff mentioned is that they had experienced a network loop and had crashed the company network and taken it down for a few days. A network loop is caused when a patch cable gets plugged in from one network port directly to another. This causes the packets to reflect back to the source in which locks up the switch.
+The issue with lack of network segmentation is that when a customer or supplier joins the network to do a presentation any malicious software or virus that could be present on their computer could inflect the entire company. 
 
 
 
@@ -229,6 +229,9 @@ or :
 https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/cisco-campus-lan-wlan-design-guide.html
 Campus design guide:
 https://www.cisco.com/c/en/us/solutions/design-zone/networking-design-guides/campus-wired-wireless.html
+
+VLAN Best Practices and Security Tips for Cisco Business Routers (referred to in dead-end vlan
+https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/1778-tz-VLAN-Best-Practices-and-Security-Tips-for-Cisco-Business-Routers.html
 
 Project deliverables
 Appendix A: Final network diagrams of the physical topology of the campus. Included on these diagrams are the design notes and the connect speeds between the switches
