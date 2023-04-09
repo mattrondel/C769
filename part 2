@@ -80,13 +80,11 @@ A.2 IT Solution
 Describe the proposed IT solution to the problem. Identify the relationship between the problem and the proposed solution.
 A.3 Implementation Plan 
 This section should contain the details of an implementation plan. First, provide details on the different phases (if applicable). Then, explain how the project will be carried out and why it will be carried out in that manner. Finally, discuss the plan for implementing the project.
-Best Practice Recommendations for the Catalyst 9300
-https://www.cisco.com/c/en/us/support/switches/catalyst-9300-series-switches/products-installation-and-configuration-guides-list.html
-A.	Review of Other Works and B .1 Relation of Artifacts to Project Development
-●	See Task 2 part B & B.1 and watch Review of Other Work
+A.Review of Other Works and B .1 Relation of Artifacts to Project Development
+●See Task 2 part B & B.1 and watch Review of Other Work
 This section reviews works done by a third party relevant and related to your project. Review at least four other works relating to your topic. Summarize (in satisfaction of B) online articles, videos, interviews, white papers, case studies etc., produced by industry professionals, and relate (in satisfaction of B1) each work to the proposed development of the project. 
-●	Any citable work produced by an industry professional is acceptable, e.g., whitepaper, online articles, manuals, videos, etc. 
-●	The work only needs to relate to an aspect of your project, e.g., applied technology, a methodology used, risks, benefits, costs, etc. 
+●Any citable work produced by an industry professional is acceptable, e.g., whitepaper, online articles, manuals, videos, etc. 
+●The work only needs to relate to an aspect of your project, e.g., applied technology, a methodology used, risks, benefits, costs, etc. 
 Review of work 1
 Start with an overview of the article, including the work's title and an in-text citation, and summarize the major points discussed. Describe how the work relates to the proposed development of the project (in fulfillment of part B1).
 Review of work 2
@@ -108,7 +106,6 @@ D. Current Project Environment
 This section (suggested length of 2–3 pages) describes and details the current project environment. It should also address specifically how the current state will set the direction for the definition and implementation of the proposed solution. Include other details that support the description as needed to support and briefly define the project environment. Analyze the systems and describe the status of the project environment before the project begins. 
 
 E. Methodology
-
 ●	View Writing the Methodology, Goals, Objectives, and Deliverables Sections.
 This section (suggested length of 1–2 pages) describes the specific methodology. The methodology is the process that the project will fill when implemented. Include specific details to adequately describe the steps that will take place to execute the project entirely. Explain how your standard methodology (such as ADDIE or SDLC) will apply to the implementation of the project.
 ●	Identify the standard methodology used. 
@@ -122,19 +119,19 @@ F1. Goals, Objectives, and Deliverables Table
 Every project has one or more goals. Each goal is supported by at least one project objective. Each objective is enabled by at least one project deliverable. Fill out this or a similarly organized table:
 
 	Goal	Supporting objectives	Deliverables enabling the project objectives
-1	Summarize project goal 1	1.a. Describe project objective 1.a.	1.a.i. Explain project deliverable 1.a.i
-			1.a.ii. Explain project deliverable 1.a.ii
-			…
-		1.b. Describe project objective 1.b.	1.b.i. Explain project deliverable 1.b.i
-			1.b.ii. Explain project deliverable 1.b.ii
-			…
-		…	…
-			…
-			…
-2	Summarize project goal 2	2.a. Describe project objective 2.a.	2.a.i. Explain project deliverable 2.a.i
-			2.a.ii. Explain project deliverable 2.a.ii
-			…
-		2.b. Describe project objective 2.b.	2.b.i. Explain project deliverable 2.b.i
+1	Summarize project goal 1	
+1.a. Describe project objective 1.a.	
+1.a.i. Explain project deliverable 1.a.i
+1.a.ii. Explain project deliverable 1.a.ii
+1.b. Describe project objective 1.b.	
+1.b.i. Explain project deliverable 1.b.i
+1.b.ii. Explain project deliverable 1.b.ii
+2	Summarize project goal 2	
+2.a. Describe project objective 2.a.	
+2.a.i. Explain project deliverable 2.a.i
+2.a.ii. Explain project deliverable 2.a.ii
+2.b. Describe project objective 2.b.	
+2.b.i. Explain project deliverable 2.b.i
 			2.b.ii. Explain project deliverable 2.b.ii
              
 F.2 Goals, Objectives, and Deliverables Descriptions
@@ -189,23 +186,26 @@ Title of Appendix
 Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed. 
 Appendix D
 Title of Appendix
-Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed.`
+Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed.
 
 References
 According to the VLAN Best Practices and Security tips Guide?
 https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/1778-tz-VLAN-Best-Practices-and-Security-Tips-for-Cisco-Business-Routers.html
+
 Dell practice guide
 https://infohub.delltechnologies.com/static/media/a6db0ca1-66bd-46bd-a955-8f3604395191.pdf
 Cisco reasoning behind 2 tier in our case:
 https://www.ciscopress.com/articles/article.asp?p=2202410
 or :
 https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/cisco-campus-lan-wlan-design-guide.html
+
 Campus design guide:
 https://www.cisco.com/c/en/us/solutions/design-zone/networking-design-guides/campus-wired-wireless.html
 
 VLAN Best Practices and Security Tips for Cisco Business Routers (referred to in dead-end vlan
 https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/1778-tz-VLAN-Best-Practices-and-Security-Tips-for-Cisco-Business-Routers.html
-
+Best Practice Recommendations for the Catalyst 9300 (not sure if used)
+https://www.cisco.com/c/en/us/support/switches/catalyst-9300-series-switches/products-installation-and-configuration-guides-list.html
 VOIP jitter stuff mentioned
 https://www.unitedworldtelecom.com/blog/voip-qos/
 
@@ -213,6 +213,8 @@ Stack configuration mentioned (Cisco Business: Glossary of New Terms):
 https://www.cisco.com/c/en/us/support/docs/smb/switches/Cisco-Business-Switching/kmgmt-2331-glossary-of-non-bias-language.html?cachemode=refresh
 
 Project deliverables
+•	VLAN Excel graph
+•	After topology image 
 Appendix A: Final network diagrams of the physical topology of the campus. Included on these diagrams are the design notes and the connect speeds between the switches
 Appendix B contains screen shots of the spreadsheets that document the IP address and VLAN schemes for the company
 Appendix C contains screen shots of the network monitoring software that was installed to assist with the configuration, troubleshooting and day to day monitoring of the new network equipment. Passler?
