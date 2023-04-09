@@ -15,7 +15,7 @@ Western Governors University
 
 
   
-Table of Contents  -WORRY ABOUT THIS LATER WHEN CONTENT IS IN
+Table of Contents -WORRY ABOUT THIS LATER WHEN CONTENT IS IN
 A.	Proposal Overview	X
 A.1 Problem Summary	X
 A.2 IT Solution	X
@@ -27,21 +27,21 @@ Review of work 3	X
 Review of work 4	X
 C. Project Rationale	X
 D. Current Project Environment	X
-E. Methodology	X
-F. Project Goals, Objectives, and Deliverables	X
-F1. Goals, Objectives, and Deliverables Table	X
+E. Methodology						X
+F. Project Goals, Objectives, and Deliverables		X
+F1. Goals, Objectives, and Deliverables Table		X
 F.2 Goals, Objectives, and Deliverables Descriptions	X
-G.	Project Timeline with Milestones	X
-H.	Outcome	X
-I.	References	X
-Appendix A	X
-Title of Appendix	X
-Appendix B	X
-Title of Appendix	X
-Appendix C	X
-Title of Appendix	X
-Appendix D	X
-Title of Appendix	X
+G.	Project Timeline with Milestones		X
+H.	Outcome					X
+I.	References					X
+Appendix A						X
+Title of Appendix					X
+Appendix B						X
+Title of Appendix					X
+Appendix C						X
+Title of Appendix					X
+Appendix D						X
+Title of Appendix					X
 
  
 Proposal Overview 
@@ -53,36 +53,23 @@ Phase 2 of the project consisted of designing the network, including the new IP 
 Phase 3 (authors note swap out these phases if they don’t align with task 1 paper) began with receiving, verifying and configuring the new equipment. The new equipment was powered up and configured at the administration building and installed at the corresponding building locations. 
 The process was carried out one building at a time beginning with the core of the network - Building 2 administration main distribution frame (MDF) then progressing to each intermediate distribution frame (IDF) within the building. Throughout this document, the main distribution frame (MDF) refers to the central connection point for each of the buildings to the rest of the network and IDFs refers to the smaller network closets within the buildings across the corporate campus. The justification for this approach was that it minimized the downtime of each of the buildings and any problems that might arise could be addressed without affecting the rest of the company. (Problem isolation?).
 
-Incorporate Two tier or leaf and spine architecture
-Vlans, re-ip networks
-
 Authors note: incorporate Spanning tree previous issue somehow into the issue of future proofing: 
 Review of Other work
 Migrating and standardizing on a manufacturer for network equipment simplifies the administration and reduces network management overhead. During this process, extensive research was done to search for advice, tips and similar outcomes to gauge the success of the project. According to Ciscos_ best practice guide, it is recommended best practice to deploy a two tier network architecture design or also referred to as leaf and spine because of ____ (Cisco, date). The two tear network or leaf/spine consists of ___. The leaf layer is the first tier of the campus where end user devices such as computers, printers, phones, IP-based cameras connect to the network. The spine or core (?) is where the heart of the network where servers and network storage devices reside. 
 	After the physical design of the network was completed, it was time to design the logical layout.  The original network was a flat network meaning it had no IP address security segmentation or Virtual Local Area Networks (VLANs). A VLAN is a logical group of workstations, servers, and network devices ___ definition from an article hopefully find how VLANs help with network traffic or speed (Cisco, DATE). Authors note check out business routers article-
 It was determined that B&B would benefit greatly by creating VLANs for similar devices and groups such as servers, IP-based cameras, shop, guests, IT management and the future IP-based phones. Per Cisco’s best practices article “Create a “Dead End” VLAN for Unused Ports”(Cisco, 2020) recommendation the default VLAN would be changed and a “dead-end” VLAN would be created to place unused ports in until they are needed. Access control lists (ACLs) would be created as well to either permit or deny access to resources such as printers, servers or devices with confidential information.
-	After the information was gathered for the physical and logical design of the new network it was time to look into prioritizing and routing traffic. Since B&B had expressed interest in upgrading to an IP-based phone system in the future it was extremely important to incorporate this into the network design. Go into detail on an important need of IP based phone system like jitter
+	After the information was gathered for the physical and logical design of the new network it was time to look into prioritizing and routing traffic. Since B&B had expressed interest in upgrading to an IP-based phone system in the future it was extremely important to incorporate this into the network design. VoIP calls can be prone to jitter, latency, and packet loss issues which lead to bad audio quality, network congestion, missed or jumbled audio, dropped calls, etc. And for any business, this is a major issue because it interferes with your teams’ ability to offer uninterrupted service.(United World Telecom, 2021)
+
 Changes to the Project Environment
-	B&B fundamental but very obsolete setup. Within the server room in building 2 there was 
-
- Several Netgear unmanaged 24 port JFS524 10/100 switches, a SonicWALL NSA 220 Firewall, the IP-based cameras were connected to Linksys SRW2024 power-over-Ethernet (POE) switches.
-Author note: Main server room MDF: ISP modem <-> sonicwall <-> netgear 
-Netgear<-> servers 
-Netgear <-> Linksys POE switches (2)
-In the rear of the building 2 in the IDF there was 4 of the netgear switches connected together with cat 5 cable with one of them being home run to the MDF with a 100mbs Ethernet cable
-
-(Side note probly wont keep remember these existing switches are unmanaged meaning plug and play devices without the need for complex setup. They come with a fixed configuration and no not allow any changes to their configuration. Managed switch allows for better control, prioritization, of network traffic
-two tier network plus vlans )
+	B&B manufacturing had a very fundamental setup. Within building 2 (administration), in the MDF there was 3 NETGEAR unmanaged 24 port JFS524 10/100 switches serving as the “core network”. An unmanaged switch comes with a fixed configuration and do not allow any changes to their configuration. Managed switch allows for better control, prioritization, of network traffic. Attached to one of these switches was a Linksys SRW2024 power-over-Ethernet (POE) switch connected to the IP-cameras. This same switch had a cat 5 cable going underground via conduit to building 3. On another of the NETGEAR switches there was a post-it note taped on both ends labeled “to building rear IDF”. On the lowest of the NETGEAR stack, a SonicWALL NSA 220 Firewall was found connected to the internet service provider’s modem. All of these connections were connected via 100 Mbps (megabits per second). In the rear of building 2 found in the IDF there was two more NETGEAR switches connected together with cat 5 cable and another Linksys POE switch for cameras. One of these NETGEAR switches had a 100 Mbps (megabits per second) cat 5 cable going underground through conduit to Building 1. In Building 1’s MDF there was 3 more NETGEAR switches along with 1 of the same Linksys POE switches. One of the NETGEAR switches went out to two IDFs and another going through underground conduit to building 4 and then to two IDFs within its building. Each IDF contained the same number of switches found in the MDF. In building 4 was a direct copy of build 1 with the same number of devices in each IDF and MDFs. Exploring Building 3, 3 more NETGEAR and 1 Linksys POE was found along with a conduit to building 5. Once again building 5 contained the same quantity and manufacturer of switches all connected via the same speed of 100 Mbps. Although this equipment was still functioning, the network was fully saturated and running as capacity and could not keep up with the volume of devices and growth over the last few years.
 The current network design was a flat network with no IP segmentation or security. The problem with this setup that if a broadcast packet is sent out from an end device in building 1, that broadcast packet is sent to every building and network device connected to the network. One of the issues in the past the On-site IT staff mentioned is that they had experienced a network loop and had crashed the company network and taken it down for a few days. A network loop is caused when a patch cable gets plugged in from one network port directly to another. This causes the packets to reflect back to the source in which locks up the switch.
 The issue with lack of network segmentation is that when a customer or supplier joins the network to do a presentation any malicious software or virus that could be present on their computer could inflect the entire company. 
+The new equipment installed in building 2 consists of 5 Cisco POE switches configured in a stack configuration. Some network switches have the ability to be connected to other switches and operate together as a single unit. These configurations are called stacks. Stacking shows the characteristics and functionality of a single switch, while adding an increased number of ports. Stacks quickly increase the capacity of a network. (Cisco Business: Glossary of New Terms, 2020)
 
 
 
 
-
- <! - - producer of complex machined parts, assemblies and kits for the aerospace, military, semiconductor, and contract manufacturing markets. Since the Biden Administration has pushed to bring more manufacturing jobs back to America the company has seen tremendous growth and because of this employees have made several complaints pertaining to slow connections to on premise resources such as file stores ERP system and Wi-Fi. Along with growth the company has also stated they want to replace an aging phone system with an IP based one. -- >
-Outside of minor repairs such as a defective unit or cable B&B’s existing network has not seen any changes for over 13 years. B&B is a spread across 5 adjacent buildings with primary servers in one building and network equipment in another. Upon inspection several obsolete HP Procurve 1810G unmanaged switches were found as the “main network” backbone” as the local IT called it along with numerous Linksys SG300 power over Ethernet (POE) switches used for IP security cameras. Also worth mentioning the air conditioning systems in all 5 building are sharing the same network. For their firewall.. maybe not this tz-104? Move this 
-Management network?
+Outside of minor repairs such as a defective unit or cable B&B’s existing network has not seen any changes for over 13 years. B&B is a spread across 5 adjacent buildings with primary servers in one building and network equipment in another. 
 
 The Proposal Overview section (suggested length of 2–4 pages) introduces the problem and overviews the solution. It contains the "road map" for the rest of the paper. First, describe the problem the project addresses and then provide an overview of the project and the paper's organization. Finally, summarize the capstone's highlights. Include the following in your summary:
 The proposed 
@@ -117,7 +104,6 @@ Summaries should include the rationale for choosing this project, including what
 
 D. Current Project Environment
 ●	View Writing the Rationale and Current Environment Sections.
-Upon site survey discovered obsolete HP procurve and Linksys Power over Ethernet (POE) switches
 -This is based on the present. This is describing how things currently work, what’s wrong with the current system of state of affairs, then the proposed solution and how it addresses what’s wrong. Don’t assume how the reader will understand how this will fix things. Tell them how including what problems might arise with the solution and what long term impacts we might reasonably expect potential problems and expectations are an excellent thing to include.
 This section (suggested length of 2–3 pages) describes and details the current project environment. It should also address specifically how the current state will set the direction for the definition and implementation of the proposed solution. Include other details that support the description as needed to support and briefly define the project environment. Analyze the systems and describe the status of the project environment before the project begins. 
 
@@ -150,19 +136,6 @@ Every project has one or more goals. Each goal is supported by at least one proj
 			…
 		2.b. Describe project objective 2.b.	2.b.i. Explain project deliverable 2.b.i
 			2.b.ii. Explain project deliverable 2.b.ii
-			…
-		…	…
-			…
-			…
-…	…	…
-	…
-			…
-			…
-		…
-	…
-			…
-			…
-		…	…
              
 F.2 Goals, Objectives, and Deliverables Descriptions
 Describe each of the project goals. Describe each objective. Explain how the objectives support the goals and explain how the objectives will be achieved. Explain what types of deliverables the project will provide, and describe the project deliverables expected by the end of the project. Finally, define the goals, objectives, and deliverables that align with the Goals, Objectives, and Deliverables Table.
@@ -232,6 +205,12 @@ https://www.cisco.com/c/en/us/solutions/design-zone/networking-design-guides/cam
 
 VLAN Best Practices and Security Tips for Cisco Business Routers (referred to in dead-end vlan
 https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/1778-tz-VLAN-Best-Practices-and-Security-Tips-for-Cisco-Business-Routers.html
+
+VOIP jitter stuff mentioned
+https://www.unitedworldtelecom.com/blog/voip-qos/
+
+Stack configuration mentioned (Cisco Business: Glossary of New Terms):
+https://www.cisco.com/c/en/us/support/docs/smb/switches/Cisco-Business-Switching/kmgmt-2331-glossary-of-non-bias-language.html?cachemode=refresh
 
 Project deliverables
 Appendix A: Final network diagrams of the physical topology of the campus. Included on these diagrams are the design notes and the connect speeds between the switches
