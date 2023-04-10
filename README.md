@@ -45,7 +45,6 @@ network segmentaion
 printers on on basic print server need a vlan and suggest a vm for this job instead of erp server
 network is a flat 10.0.0.0/8
 possible security threats
-ac system could access HR computer ac system is connected to the internet for vendor Health monitoring
 workgroup (non-managed switch could malfuntion (happened in the past) or incorreclty connected to itelf and bring the network down
 
 why is this upgraded needed?
