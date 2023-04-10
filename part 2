@@ -255,7 +255,7 @@ Preventive Maintenance Instructions PMI schedule log
 Weekly – check humidly levels in MDF and IDF making sure it’s between 10 and 80% RH
 Check temps in MDF and IDF rooms verify between 45 and 90 degrees
 Bi-weekly – check battery backups on each connected switch, press test button, verify backup configurations are running and can be opened
-Monthly - clean and check fans 
+Monthly - clean and check fans , check for any warning lights on ports
 3 month – check interfaces for input errors > show interface counter error
 6 month check for Firmware updates, install as necessary, Check Cables: Check the cables connected to the switch making sure they are secure and not damaged in any way.
 12 month – check status on fans >show environment alarm threshold or > show environment all
