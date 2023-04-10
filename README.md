@@ -35,9 +35,6 @@ Why not juniper?
 802.1x network for wifi and group accounts drip feeder etc?
 shipping scanners dont login - vlan wifi these only with acls to talk to erp system
 
-touchscreens don't login either 
-cameras dont login
-AC systems (atlas copco)
 
 production vlan?
 thin clients and fat clients
