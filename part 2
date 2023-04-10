@@ -97,8 +97,9 @@ Start with an overview of the article, including the work's title and an in-text
 C. Project Rationale
 
 ●	View Writing the Rationale and Current Environment Sections.
--this is based on the past, no right or wrong only the need to offer sufficient support. Usually rooted in business, technical or user needs. No right or wrong only one that makes sense
-Summaries should include the rationale for choosing this project, including what makes this problem interesting or significant. The Project Rationale section (suggested length of 1–2 pages) provides a rationale for the project. It should address the reasons for implementing the project, as described in the Proposal Overview. The rationale may include and expand on business and technical reasons to support the implementation. Justify the selection of the project.
+#-this is based on the past, no right or wrong only the need to offer sufficient support. Usually rooted in business, technical or user needs. No right or wrong only one that makes sense
+#Summaries should include the rationale for choosing this project, including what makes this problem interesting or significant. The Project Rationale section (suggested length of 1–2 pages) provides a rationale for the project. It should address the reasons for implementing the project, as described in the Proposal Overview. The rationale may include and expand on business and technical reasons to support the implementation. Justify the selection of the project.
+
 
 D. Current Project Environment
 ●	View Writing the Rationale and Current Environment Sections.
@@ -106,10 +107,17 @@ D. Current Project Environment
 This section (suggested length of 2–3 pages) describes and details the current project environment. It should also address specifically how the current state will set the direction for the definition and implementation of the proposed solution. Include other details that support the description as needed to support and briefly define the project environment. Analyze the systems and describe the status of the project environment before the project begins. 
 
 E. Methodology
-●	View Writing the Methodology, Goals, Objectives, and Deliverables Sections.
-This section (suggested length of 1–2 pages) describes the specific methodology. The methodology is the process that the project will fill when implemented. Include specific details to adequately describe the steps that will take place to execute the project entirely. Explain how your standard methodology (such as ADDIE or SDLC) will apply to the implementation of the project.
-●	Identify the standard methodology used. 
-●	directly connect steps taken in your process to development phases of the standard methodology, e.g., analysis, design, etc.
+#remove lines starting with # when done
+●	# View Writing the Methodology, Goals, Objectives, and Deliverables Sections.
+# This section (suggested length of 1–2 pages) describes the specific methodology. The methodology is the process that the project will fill when implemented. Include specific details to adequately describe the steps that will take place to execute the project entirely. Explain how your standard methodology (such as ADDIE or SDLC) will apply to the implementation of the project.
+●	#Identify the standard methodology used. 
+●	#directly connect steps taken in your process to development phases of the standard methodology, e.g., analysis, design, etc.
+
+As project manager, I choose the waterfall methodology model as this is a straightforward, well-define project management methodology suitable with a well-define goal that will not change. The waterfall model consists of 6 phases: Requirements, system design, Implementation, Integration and testing. Deployments of system and maintenance. This is a common model to follow with projects such this it has clearly defined stages that begin when the preceding stage ends.
+The Requirements phase of this project was satisfied by gathering relevant stakeholders from across the company. These meetings discusses the current state of the network, past issues, the issues to overcome and a plan for future growth. This lead directly in the system design phase, where based on the information gathered, a new network design was developed to include number of switches needed, the performance of those switches, and how they will be configured.
+The implementation phase began by generating a list of equipment needed from the system design phase and ordering the equipment from the companies preferred supplier. This equipment was delivered to the receiving department in building 2 and grouped according to installation location. Once this equipment was received and added to the IT asset inventory, it was unboxed and configured according to the destination and network best practices according to Cisco. 
+The Integration and Test phase began by installing the new core switch alongside the current hardware and verifying connectivity with the existing firewall and internet. Once connectivity tests were successful System Deployment System Deployment phase commenced and new equipments was installed at each buildings MDF. New equipment was powered up and connected to the network backbone. Once connectivity with the core was established the endpoint devices such as printers and client computers were connected. After endpoint devices were verified, the next IDF was connected and repeated until each building was on the new network. Verification of endpoint devices included test prints, connecting to the internet, traceroute and ping, and verify IP-cameras were recording, and shop floor terminals would connect to the MRP database.
+Once verified this brought us to the Maintenance phase of the project, which included the monitoring and preventive maintenance (PMI) instructions
 
 F. Project Goals, Objectives, and Deliverables
 ●	View Writing the Methodology, Goals, Objectives, and Deliverables Sections.
@@ -133,7 +141,31 @@ Every project has one or more goals. Each goal is supported by at least one proj
 2.b. Describe project objective 2.b.	
 2.b.i. Explain project deliverable 2.b.i
 			2.b.ii. Explain project deliverable 2.b.ii
-             
+Project Deliverables
+•	This is from Part 1:
+i. Objective 1 Deliverables
+1. Updated network topology diagram
+2. Site map
+3. Network inventory
+ii. Objective 2. Deliverables:
+1.	Cisco 9300 Series switches
+2.	Stackwise cables
+3.	Cat 6 cabling
+4.	Fiber cabling 
+iii. Objective 3. Deliverables:
+1.	Configured switches, configure to work with existing wireless acess points
+2.	RE-IP devices and new DHCP pools created
+3.	VLANS for departmental data security and quality of service
+4.	Installed cabling
+iv:. Objective 4. Deliverables:
+Detailed system test report
+V: Objective 5. Deliverables:
+1.	Old switching equipment returned to IT department for disposition
+2.	New equipment is up and running without issue
+3.	IT staff is trained
+h.	Projected Project End Date – May 31 2023
+
+
 F.2 Goals, Objectives, and Deliverables Descriptions
 Describe each of the project goals. Describe each objective. Explain how the objectives support the goals and explain how the objectives will be achieved. Explain what types of deliverables the project will provide, and describe the project deliverables expected by the end of the project. Finally, define the goals, objectives, and deliverables that align with the Goals, Objectives, and Deliverables Table.
 
@@ -218,3 +250,17 @@ Project deliverables
 Appendix A: Final network diagrams of the physical topology of the campus. Included on these diagrams are the design notes and the connect speeds between the switches
 Appendix B contains screen shots of the spreadsheets that document the IP address and VLAN schemes for the company
 Appendix C contains screen shots of the network monitoring software that was installed to assist with the configuration, troubleshooting and day to day monitoring of the new network equipment. Passler?
+
+Preventive Maintenance Instructions PMI schedule log
+Weekly – check humidly levels in MDF and IDF making sure it’s between 10 and 80% RH
+Check temps in MDF and IDF rooms verify between 45 and 90 degrees
+Bi-weekly – check battery backups on each connected switch, press test button, verify backup configurations are running and can be opened
+Monthly - clean and check fans 
+3 month – check interfaces for input errors > show interface counter error
+6 month check for Firmware updates, install as necessary, Check Cables: Check the cables connected to the switch making sure they are secure and not damaged in any way.
+12 month – check status on fans >show environment alarm threshold or > show environment all
+24 month - 
+
+
+Maintenance schedule
+https://www.ciscopress.com/articles/article.asp?p=2999386&seqNum=4
