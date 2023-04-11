@@ -100,7 +100,7 @@ C. Project Rationale
 
 
 D. Current Project Environment
-#●	View Writing the Rationale and Current Environment Sections.
+# View Writing the Rationale and Current Environment Sections.
 # - This is based on the present. This is describing how things currently work, what’s wrong with the current system of state of affairs, then the proposed solution and how it addresses what’s wrong. Don’t assume how the reader will understand how this will fix things. Tell them how including what problems might arise with the solution and what long term impacts we might reasonably expect potential problems and expectations are an excellent thing to include.
 # This section (suggested length of 2–3 pages) describes and details the current project environment. It should also address specifically how the current state will set the direction for the definition and implementation of the proposed solution. Include other details that support the description as needed to support and briefly define the project environment. Analyze the systems and describe the status of the project environment before the project begins. 
 
@@ -253,7 +253,7 @@ Preventive Maintenance Instructions PMI schedule log
 Weekly – check humidly levels in MDF and IDF making sure it’s between 10 and 80% RH
 Check temps in MDF and IDF rooms verify between 45 and 90 degrees
 Bi-weekly – check battery backups on each connected switch, press test button, verify backup configurations are running and can be opened
-Monthly - clean and check fans , check for any warning lights on ports
+Monthly - clean and check fans, check for any warning lights on ports
 3 month – check interfaces for input errors > show interface counter error
 6 month check for Firmware updates, install as necessary, Check Cables: Check the cables connected to the switch making sure they are secure and not damaged in any way.
 12 month – check status on fans >show environment alarm threshold or > show environment all
