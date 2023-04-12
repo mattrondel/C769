@@ -113,20 +113,17 @@ Objective 1. a. – Inventory and document existing network equipment. This was 
 Objective 1. c. Configure network switches. All network hardware was shipped to building 2. Upon arrival all equipment was inventoried and tagged the IT department then configured. The equipment was then grouped by building location then powered up to verify functionality.
 Objective 1. d. Install network switches and preform end-to-end connectivity checks. Fortunately for B & B, the rack they had the existing equipment was installed in was an oversized 52U and this allowed for the new equipment to be installed alongside the old switches. This enabled both old and new to be running in tandem and allowed the new switches to be connected to the internet. Between each building there was an old set of Ethernet cables which was marked as “do not use” and this served as an easy method in which to pull the new fiber lines through. As the new fiber was run and connected connectivity checks were done by all wired devices such as desktop computers and cameras.
 Goal 2: Improve network management. The next goal was targeted at improving the management and helping with troubleshooting issues at the network level. “We usually reactive to network issues instead of proactive, and tend to put out fires instead of preventing them” the on-site IT manager said. This was accomplished by a single objective and was qualified by being able to monitor and manage the network from the IT department. 
-Objective 2.a. Verify network documentation and install management software. Once the new networking equipment was installed and functioning properly, the 
-This documentation was stored along with IP address VLAN configurations and passwords were stored in a fireproof safe in the IT department’s office. The new network monitoring software was installed as the last step to this objective. This new software allowed the IT staff to make automated backups of switch configuration map and monitor the overall health of the network.
-
--Project Timeline table here-
-|Milestone or Deliverable | Planned duration (hours or Days) |Actual duration (hours or Days)|Actual start date| Actual End Date|
-|-|-|-|-|-|
-|-|-|-|-|-|
-|-|-|-|-|-|
-
-Fortunately B&B had an unusual large server rack a 52u when a standard size one is 48
-Choke point, upgrade circuit, end-to-end test
-
+Objective 2.a. Verify network documentation and install management software. Once the new networking equipment was installed and functioning properly, documentation on the network design along with IP and VLAN configurations were verified and store safely for future reference. 
+This documentation was stored along with IP addresses, VLAN configurations and passwords were stored in a fireproof safe in the IT department’s office. The new network monitoring software was installed as the last step to this objective. This new software allowed the IT staff to make automated backups of switch configuration map and monitor the overall health of the network.
+During this project, there were two obstacles that caused the project to take longer than expected. The first problem was discovered when the fiber was being installed between building 2 and 3. During this phase it was discovered that the ground conduit had collapsed and cable could not be pulled through. To rectify this, the concrete had to be removed, conduit repaired and buried back in the ground. The next issue did not affect the timeline very much as it was discovered the circuit and ISP modem had to be upgraded to support the new speeds on the inside of the company otherwise this would become a choke point in the network. This was simply a phone call to the ISP and the new hard ware was sent out and an ISP technician arrived to install the new equipment during the same time the equipment was being installed throughout the switch install phase.
 Unanticipated Requirements
-Some stuff here
+	While installing the fiber cabling backbone between buildings it was discovered over time that the underground line connecting building 2 and 3 had been crushed. Once this was discovered the conduit line had to be unburied repaired and then covered up and new cement poured. This delayed the project caused a delay in the project by 2 weeks because the cabling was over a frequently used driveway but did not cause any issues with the budget. 
+The unanticipated requirement was when it was discovered that the ISP modem and circuit need to be upgraded to allow for the new bandwidth needs of the company. Since this was discovered during the beginning of the installation phase this did not affect the schedule as this upgrade took place at the same time. As for the circuit and modem upgrade this was at no cost to the customer as this was included with the business internet plan. 
+Conclusions 
+The success of this project was determined by the positive and helpful response from the administrative and on-site IT staff. 
+
+#Choke point, upgrade circuit, end-to-end test
+#Some stuff here
 Conclusions 
 Add conclusions here
 Project Deliverables
