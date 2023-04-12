@@ -115,7 +115,13 @@ Objective 1. d. Install network switches and preform end-to-end connectivity che
 Goal 2: Improve network management. The next goal was targeted at improving the management and helping with troubleshooting issues at the network level. “We usually reactive to network issues instead of proactive, and tend to put out fires instead of preventing them” the on-site IT manager said. This was accomplished by a single objective and was qualified by being able to monitor and manage the network from the IT department. 
 Objective 2.a. Verify network documentation and install management software. Once the new networking equipment was installed and functioning properly, the 
 This documentation was stored along with IP address VLAN configurations and passwords were stored in a fireproof safe in the IT department’s office. The new network monitoring software was installed as the last step to this objective. This new software allowed the IT staff to make automated backups of switch configuration map and monitor the overall health of the network.
+
 -Project Timeline table here-
+|Milestone or Deliverable | Planned duration (hours or Days) |Actual duration (hours or Days)|Actual start date| Actual End Date|
+|-|-|-|-|-|
+|-|-|-|-|-|
+|-|-|-|-|-|
+
 Fortunately B&B had an unusual large server rack a 52u when a standard size one is 48
 Choke point, upgrade circuit, end-to-end test
 
