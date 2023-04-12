@@ -104,8 +104,8 @@ As project manager, I choose the waterfall methodology model as this is a straig
 The Requirements phase of this project was satisfied by gathering relevant stakeholders from across the company. These meetings discusses the current state of the network, past issues, the issues to overcome and a plan for future growth. This lead directly in the system design phase, where based on the information gathered, a new network design was developed to include number of switches needed, the performance of those switches, and how they will be configured.
 The implementation phase began by generating a list of equipment needed from the system design phase and ordering the equipment from the companies preferred supplier. This equipment was delivered to the receiving department in building 2 and grouped according to installation location. Once this equipment was received and added to the IT asset inventory, it was unboxed and configured according to the destination and network best practices according to Cisco. 
 The Integration and Test phase began by installing the new core switch alongside the current hardware and verifying connectivity with the existing firewall and internet. Once connectivity tests were successful System Deployment System Deployment phase commenced and new equipment was installed at each buildings MDF. New equipment was powered up and connected to the network backbone. Once connectivity with the core was established the endpoint devices such as printers and client computers were connected. After endpoint devices were verified, the next IDF was connected and repeated until each building was on the new network. Verification of endpoint devices included test prints, connecting to the internet, traceroute and ping, and verify IP-cameras were recording, and shop floor terminals would connect to the MRP database.
-Once verified this brought us to the Maintenance phase of the project, which included the monitoring and preventive maintenance (PMI) instructions (page 8)
-
+Once verified this brought us to the Maintenance phase of the project, which included the monitoring and preventive maintenance (PMI) of the new network equipment.
+(Page 9)
 Table here
 Goal 1: 
 Objective 1. a.
@@ -116,6 +116,7 @@ Goal 2:
 Objective 2.a.
 -Project Timeline table here-
 Fortunately B&B had an unusual large server rack a 52u when a standard size one is 48
+Choke point , upgrade circuit
 Unanticipated Requirements
 Some stuff here
 Conclusions 
