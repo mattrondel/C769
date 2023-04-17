@@ -2,8 +2,7 @@ Network Upgrade for B & B Manufacturing
 Matthew J Rondel
 Western Governors University 
 
-
-  
+--Make this one whole page if possible-
 Table of Contents -WORRY ABOUT THIS LATER WHEN CONTENT IS IN
 A.	Proposal Overview	X
 A.1 Problem Summary	X
@@ -31,6 +30,9 @@ Appendix C						X
 Title of Appendix					X
 Appendix D						X
 Title of Appendix					X
+
+--Make this one whole page if possible-
+
 
  
 Proposal Overview 
@@ -102,15 +104,17 @@ As the project manager, I choose the waterfall methodology model as this is a st
 The Requirements phase of this project was satisfied by gathering relevant stakeholders from across the company. These meetings discussed the current state of the network, past issues, the issues to overcome, and a plan for future growth. This led directly to the system design phase, where based on the information gathered, a new network design was developed to include the number of switches needed, the performance of those switches, and how they will be configured.
 The implementation phase began by generating a list of equipment needed from the system design phase and ordering the equipment from the company’s preferred supplier. This equipment was delivered to the receiving department in building 2 and grouped according to the installation location. Once this equipment was received and added to the IT asset inventory, it was unboxed and configured according to the destination and network best practices according to Cisco. 
 The Integration and Test phase began by installing the new core switch alongside the current hardware and verifying connectivity with the existing firewall and internet. Once connectivity tests were successful System Deployment phase commenced and new equipment was installed at each building’s MDF. New equipment was powered up and connected to the network backbone. Once connectivity with the core was established the endpoint devices such as printers and client computers were connected. After endpoint devices were verified, the next IDF was connected and repeated until each building was on the new network. Verification of endpoint devices included test prints, connecting to the internet, traceroute and ping, and verifying IP-cameras were recording, and shop floor terminals would connect to the MRP database.
-Once verified this brought us to the Maintenance phase of the project, which included the monitoring and preventive maintenance (PMI) of the new network equipment.
+#do not do below this is beyond the scope of work
+#Once verified this brought us to the Maintenance phase of the project, which included the monitoring and preventive maintenance (PMI) of the new network equipment.
 (Page 9)
 Table here
+	Thake phases mentioned in part 1 and translate these goals
 Goal 1: Network design and upgrade. Create a new network design and replace all obsolete and end-of-life hardware. Completing this goal entailed designing an efficient, robust network, and selecting a single hardware manufacturer for networking hardware, which was qualified by increased network throughput, stability, and ease of management. This was the project’s primary goal consisting of four supporting objectives.
-Objective 1. a. – Inventory and document existing network equipment. This was mainly needed for the number of switches, ports and for evaluating the network’s future growth. One of the main problems with the current network was that it was a “flat” network with no IP security or IP segmentation or VLANs. Therefore, the current design of the network was not needed. This objective was met when an inventory of the existing network equipment was complete along with the documentation, labeling and testing of all the fiber optic cabling performed
+Objective 1. a. – Inventory and document existing network equipment. This was mainly needed to determine the number of switches, ports and evaluate the network’s future growth. One of the main problems with the current network was that it was a “flat” network with no IP security or IP segmentation or VLANs. Therefore, the current design of the network was not needed and thus needed to be redesigned. This objective was met when an inventory of the existing network equipment was complete along with the documentation, labeling and testing of all the fiber optic cabling performed
 	Objective 1. b. Design new network and order hardware. The next step in this process was to create a new network design for the company. This network design was created to be secure, redundant, and adhere to industry practices. Based on the design, an equipment list was created, ordered, and received at Building 2.
-Objective 1. c. Configure network switches. All network hardware was shipped to building 2. Upon arrival, all equipment was inventoried and tagged by the IT department and then configured. The equipment was then grouped by building location then powered up to verify functionality.
-Objective 1. d. Install network switches and perform end-to-end connectivity checks. Fortunately for B & B, the rack they had the existing equipment installed in was an oversized 52U and this allowed for the new equipment to be installed alongside the old switches. This enabled both old and new to be running in tandem and allowed the new switches to be connected to the internet. Between each building there was an old set of Ethernet cables that was marked as “do not use” and this served as an easy method through which to pull the new fiber lines through. As the new fiber was run and connected connectivity checks were done by all wired devices such as desktop computers and cameras.
-Goal 2: Improve network management. The next goal was targeted at improving the management and helping with troubleshooting issues at the network level. “We usually reactive to network issues instead of proactive, and tend to put out fires instead of preventing them,” the on-site IT manager said. This was accomplished by a single objective and was qualified by being able to monitor and manage the network from the IT department. 
+Objective 1. c. Configure network switches. All network hardware was shipped to building 2. Upon arrival, all equipment was inventoried and tagged by the IT department and then configured. The equipment was then grouped by building location then powered up to verify functionality. Once the equipment was configured prior to installation they were connected and through testing was conducted.
+Objective 1. d. Install network switches and perform end-to-end connectivity checks. Fortunately for B & B, the rack they had the existing equipment installed in was an oversized 52U and this allowed for the new equipment to be installed alongside the old switches. This enabled both old and new to be running in tandem and allowed the new switches to be connected to the internet. Between each building there was an old set of Ethernet cables that was marked as “do not use” and this served as an easy method through which to pull the new fiber lines through. As the new fiber was run and connected connectivity checks were completed by wired devices such as desktop computers and printers.
+needs removing -  - > Goal 2: Improve network management. The next goal was targeted at improving the management and helping with troubleshooting issues at the network level. “We usually reactive to network issues instead of proactive, and tend to put out fires instead of preventing them,” the on-site IT manager said. This was accomplished by a single objective and was qualified by being able to monitor and manage the network from the IT department. 
 Objective 2.a. Verify network documentation and install management software. Once the new networking equipment was installed and functioning properly, documentation on the network design along with IP and VLAN configurations were verified and stored safely. 
 This documentation was stored along with IP addresses, VLAN configurations, and passwords was stored in a fireproof safe in the IT department’s office. The new network monitoring software was installed as the last step toward this objective. This new software allowed the IT staff to make automated backups of the switch configurations, and map and monitor the overall health of the network.
 During this project, there were two obstacles that caused the project to take longer than expected. The first problem was discovered when the fiber was installed between building 2 and 3. During this phase, it was discovered that the ground conduit had collapsed and the cable could not be pulled through. To rectify this, the concrete had to be removed, the conduit repaired, and buried back in the ground. The next issue did not affect the timeline very much as it was discovered the circuit and ISP modem had to be upgraded to support the new speeds on the inside of the company otherwise this would become a choke point in the network. This was simply a phone call to the ISP and the new hardware was sent out and an ISP technician arrived to install the new equipment during the same time the equipment was being installed throughout the switch install phase.
@@ -262,6 +266,7 @@ Appendix A: Final network diagrams of the physical topology of the campus. Inclu
 Appendix B contains screenshots of the spreadsheets that document the IP address and VLAN schemes for the company
 Appendix C contains screenshots of the network monitoring software that was installed to assist with the configuration, troubleshooting, and day-to-day monitoring of the new network equipment. Passler?
 
+-make this as a “scanned in document “as deliverable-
 Preventive Maintenance Instructions PMI schedule log
 Weekly – check humidly levels in MDF and IDF making sure it’s between 10 and 80% RH
 Check temps in MDF and IDF rooms and verify between 45 and 90 degrees
