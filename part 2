@@ -67,8 +67,21 @@ B and B Manufacturing has seen rapid growth and because of this the network has 
 #Summaries of the problem should include the context in which this problem exists. Summarize what will and will not be included in the project. Provide sufficient background information so that the reader can appreciate the need for a solution and the approach taken in the project.
 A.2 IT Solution
 #Describe the proposed IT solution to the problem. Identify the relationship between the problem and the proposed solution.
-During the meeting with stakeholders it was proposed was to replace all Ethernet-connected switches with redundant fiber-connected ones for the backbone with all endpoints like computers and printers with new category 6 cablings. 
+During the meeting with stakeholders it was proposed, once a assessment was taken place,  to replace all Ethernet-connected switches with redundant fiber-connected connections between buildings for the backbone with all endpoints like computers and printers with new category 6 cable. 
+
+
+
 A.3 Implementation Plan 
+This is how it’s going to be installed? Need to add more to this
+(read this for ideas: https://github.com/ashejim/C769/blob/main/resources/examples/BSCIA/example_task2-bscia-a.pdf
+)
+I will start by assessing the current switches install across all buildings. B &B Manufacturing will provide a list of all network switches currently in place including their network information, make, model, and location. After the current environment is mapped the different manufacturers will be examined and a single manufacturer will be determined. By standardizing on a single manufacturer for network equipment simples the administration and network management overhead.
+	 
+
+
+
+
+
 # This section should contain the details of an implementation plan. First, provide details on the different phases (if applicable). Then, explain how the project will be carried out and why it will be carried out in that manner. Finally, discuss the plan for implementing the project.
 # A. Review of Other Works and B .1 Relation of Artifacts to Project Development
 ● #See Task 2 part B & B.1 and watch Review of Other Work
@@ -114,9 +127,8 @@ Objective 1. a. – Inventory and document existing network equipment. This was 
 	Objective 1. b. Design new network and order hardware. The next step in this process was to create a new network design for the company. This network design was created to be secure, redundant, and adhere to industry practices. Based on the design, an equipment list was created, ordered, and received at Building 2.
 Objective 1. c. Configure network switches. All network hardware was shipped to building 2. Upon arrival, all equipment was inventoried and tagged by the IT department and then configured. The equipment was then grouped by building location then powered up to verify functionality. Once the equipment was configured prior to installation they were connected and through testing was conducted.
 Objective 1. d. Install network switches and perform end-to-end connectivity checks. Fortunately for B & B, the rack they had the existing equipment installed in was an oversized 52U and this allowed for the new equipment to be installed alongside the old switches. This enabled both old and new to be running in tandem and allowed the new switches to be connected to the internet. Between each building there was an old set of Ethernet cables that was marked as “do not use” and this served as an easy method through which to pull the new fiber lines through. As the new fiber was run and connected connectivity checks were completed by wired devices such as desktop computers and printers.
-needs removing -  - > Goal 2: Improve network management. The next goal was targeted at improving the management and helping with troubleshooting issues at the network level. “We usually reactive to network issues instead of proactive, and tend to put out fires instead of preventing them,” the on-site IT manager said. This was accomplished by a single objective and was qualified by being able to monitor and manage the network from the IT department. 
-Objective 2.a. Verify network documentation and install management software. Once the new networking equipment was installed and functioning properly, documentation on the network design along with IP and VLAN configurations were verified and stored safely. 
-This documentation was stored along with IP addresses, VLAN configurations, and passwords was stored in a fireproof safe in the IT department’s office. The new network monitoring software was installed as the last step toward this objective. This new software allowed the IT staff to make automated backups of the switch configurations, and map and monitor the overall health of the network.
+Objective X.a. Verify network documentation. Once the new networking equipment was installed and functioning properly, documentation on the network design along with IP and VLAN configurations were verified and stored safely. 
+This documentation was stored along with IP addresses, VLAN configurations, and passwords was stored in a fireproof safe in the IT department’s office. 
 During this project, there were two obstacles that caused the project to take longer than expected. The first problem was discovered when the fiber was installed between building 2 and 3. During this phase, it was discovered that the ground conduit had collapsed and the cable could not be pulled through. To rectify this, the concrete had to be removed, the conduit repaired, and buried back in the ground. The next issue did not affect the timeline very much as it was discovered the circuit and ISP modem had to be upgraded to support the new speeds on the inside of the company otherwise this would become a choke point in the network. This was simply a phone call to the ISP and the new hardware was sent out and an ISP technician arrived to install the new equipment during the same time the equipment was being installed throughout the switch install phase.
 Unanticipated Requirements
 	While installing the fiber cabling backbone between buildings it was discovered over time that the underground line connecting building 2 and 3 had been crushed. Once this was discovered the conduit line had to be unburied repaired and then covered up and new cement poured. This delayed the project caused a delay in the project by 2 weeks because the cabling was over a frequently used driveway but did not cause any issues with the budget. 
