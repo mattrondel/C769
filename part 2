@@ -1,14 +1,39 @@
 Network Upgrade for B & B Manufacturing
-Matthew J Rondel
-Western Governors University 
 
---Make this one whole page if possible-
+
+
+
+
+
+
+
+
+-center-
+Network Upgrade for B & B Manufacturing
+Matthew J Rondel
+Western Governors University
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Table of Contents -WORRY ABOUT THIS LATER WHEN CONTENT IS IN
-A.	Proposal Overview	X
+A. Proposal Overview	X
 A.1 Problem Summary	X
 A.2 IT Solution	X
 A.3 Implementation Plan	X
-B.	Review of Other Works and B .1 Relation of Artifacts to Project Development	X
+B.	Review of Other Works and 
+B .1 Relation of Artifacts to Project Development	X
 Review of work 1	X
 Review of work 2	X
 Review of work 3	X
@@ -31,7 +56,6 @@ Title of Appendix					X
 Appendix D						X
 Title of Appendix					X
 
---Make this one whole page if possible-
 
 
  
@@ -62,7 +86,7 @@ It was determined that B&B would benefit greatly by creating VLANs for similar d
 Current Project Environment
 	B&B manufacturing had a very fundamental setup. Within Building 2, in the MDF there were 3 NETGEAR unmanaged 24 port JFS524 10/100 switches serving as the “core network”. An unmanaged switch comes with a fixed configuration and does not allow any changes to its configuration. A managed switch allows for better control, and prioritization, of network traffic. Attached to one of these switches was a Linksys SRW2024 power-over-Ethernet (POE) switch connected to the IP-cameras. This same switch had a cat 5 cable going underground via a conduit to building 3. On another of the NETGEAR switches there was a post-it note taped on both ends labeled “to building rear IDF”. On the lowest of the NETGEAR stack, a SonicWALL Firewall was found connected to the internet service provider’s modem. All of these connections were connected via 100 Mbps (megabits per second). In the rear of building 2 found in the IDF there were two more NETGEAR switches connected together with category 5 cable and another Linksys POE switch for cameras. One of these NETGEAR switches had a 100 Mbps (megabits per second) cat 5 cables going underground through the conduit to Building 1. In Building 1’s MDF there were 3 more NETGEAR switches along with 1 of the same Linksys POE switches. One of the NETGEAR switches went out to two IDFs and another went through the underground conduit to building 4 and then to two IDFs within its building. Each IDF contained the same number of switches found in the MDF. In building 4 was a direct copy of building 1 with the same number of devices in each IDF and MDFs. Exploring Building 3, 3 more NETGEAR and 1 Linksys POE were found along with a conduit to Building 5. Once again building 5 contained the same quantity and manufacturer of switches all connected via the same speed of 100 Mbps. Although this equipment was still functioning, the network was fully saturated and running as capacity and could not keep up with the volume of devices and growth over the last few years.
 The current network design was a flat network with no IP segmentation or security. The problem with this setup is that if a broadcast packet is sent out from an end device in building 1 then a broadcast packet is sent to every building and network device connected to the network. One of the issues in the past the On-site IT staff mentioned is that they had experienced a network loop and had crashed the company network and taken it down for a few days. A network loop is caused when a patch cable gets plugged in from one network port directly to another. This causes the packets to reflect back to the source in which locks up the switch.
-The issue with lack of network segmentation is that when a customer or supplier joins the network to do a presentation any malicious software or virus that could be present on their computer could inflect the entire company. 
+One of the dangers of lack of network segmentation is that if a customer or supplier joins the network to do a presentation any malicious software or virus that could be present on their computer could inflect the entire company. 
 
 
 The new equipment installed in building 2 consists of 5 Cisco POE switches configured in a stack configuration. Some network switches have the ability to be connected to other switches and operate together as a single unit. These configurations are called stacks. Stacking shows the characteristics and functionality of a single switch, while adding an increased number of ports. Stacks quickly increase the capacity of a network. (Cisco Business: Glossary of New Terms, 2020)
@@ -207,7 +231,8 @@ This section (suggested length of 1–2 pages) provides a projected timeline wit
 ●	include a table (as below) with projected milestones, duration, start, and end dates. Projections should be as authentic as possible without regard to academic plans. Dates from task 2 must be in the future, and dates from task 3 must be in the past -they do not need to align.  
 Milestone or deliverable	Duration 
 (hours or days)	Projected start date	anticipated end date
-				
+			
+			
 
 H.	Outcome
 ●	View Writing the Timeline and Outcomes Sections.
@@ -244,6 +269,9 @@ OLPC Peru/Arahuay. (n.d.). Retrieved April 29, 2011, from the OLPC Wiki: http://
 Plath, S. (2000). The unabridged journals. K. V. Kukil (Ed.). New York, NY: Anchor.
 
 
+
+
+ 
 Appendix A
 Title of Appendix
 Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed. 
@@ -290,3 +318,16 @@ Appendix A: Final network diagrams of the physical topology of the campus. Inclu
 Appendix B contains screenshots of the spreadsheets that document the IP address and VLAN schemes for the company
 Appendix C contains screenshots of the network monitoring software that was installed to assist with the configuration, troubleshooting, and day-to-day monitoring of the new network equipment. Passler?
 
+-make this as a “scanned in document “as deliverable-
+Preventive Maintenance Instructions PMI schedule log
+Weekly – check humidly levels in MDF and IDF making sure it’s between 10 and 80% RH
+Check temps in MDF and IDF rooms and verify between 45 and 90 degrees
+Bi-weekly – check battery backups on each connected switch, press test button, verify backup configurations are running and can be opened
+Monthly - clean and check fans, check for any warning lights on ports
+3 month – check interfaces for input errors > show interface counter error
+6 month check for Firmware updates, install as necessary, Check Cables: Check the cables connected to the switch making sure they are secure and not damaged in any way.
+12 month – check status on fans >show environment alarm threshold or > show environment all
+
+
+Maintenance schedule
+https://www.ciscopress.com/articles/article.asp?p=2999386&seqNum=4
