@@ -89,6 +89,7 @@ Title of Appendix B ………….………………………………………�
 
 Proposal Overview 
 B&B Manufacturing is a medium-sized company of 275 employees located in Valencia, CA. The company consists of 5 adjacent buildings including administration, assembly, manufacturing, and maintenance. Their network is a mix of multi-vendor hardware that lacks standardization, and network separation and it includes equipment that has been deemed end-of-life by the manufacturer. Since the Biden Administration has pushed to bring more manufacturing jobs back to America, the company has seen tremendous growth. Because of this, employees have complained about slow connections to on premise resources such as file stores and ERP systems. Along with this growth the company has also stated they want to replace an aging phone system with an IP-based one.
+
 As a former employee turned managed service provider (MSP) I was hired to assist with documenting, proposing, standardizing, and upgrading the network infrastructure. This process included creating a network diagram of the current network infrastructure, discussing future technology with upper management and on-site suggesting future expansion such as the desired IP phone system, then proposing and installing a solution that will meet both requirements from a single manufacturer. Once the network design and equipment list was approved, the company would requests bids from approved vendors to purchase and installation would take place to install and configure the new network equipment.
 	This project began with interviewing the on-site IT staff and upper management to determine the needs and expectations of the network, as well as discussing future growth of the company and IP phone system requirements. While these interviews took place, notes of the existing infrastructure were taken and network topology mapping software was used to probe the existing network to confirm logical topology. Physical inspections of adequate cooling and power, along with existing connections between buildings. 
 Phase 2 of the project consisted of designing the network, including the new IP address schemes and VLANS, and compiling a finalized list of equipment for each building and location. Once this list was complete it was emailed to the purchasing department and the equipment was ordered.
@@ -133,7 +134,7 @@ A.3 Implementation Plan
 This is how it’s going to be installed? Need to add more to this
 (read this for ideas: https://github.com/ashejim/C769/blob/main/resources/examples/BSCIA/example_task2-bscia-a.pdf
 )
-Work will start by assessing the current switches install across all buildings. B &B Manufacturing will provide a list of all network switches currently in place including their network information, make, model, and location. After the current environment is mapped the different manufacturers will be examined and a single manufacturer will be determined. By standardizing on a single manufacturer for network equipment simples the administration and network management overhead.
+After the current environment is mapped the different manufacturers will be examined and a single manufacturer will be determined. By standardizing on a single manufacturer for network equipment simples the administration and network management overhead.
 	 
 
 
@@ -176,7 +177,7 @@ The Requirements phase of this project was satisfied by gathering relevant stake
 The implementation phase began by generating a list of equipment needed from the system design phase and ordering the equipment from the company’s preferred supplier. This equipment was delivered to the receiving department in building 2 and grouped according to the installation location. Once this equipment was received and added to the IT asset inventory, it was unboxed and configured according to the destination and network best practices according to Cisco. 
 The Integration and Test phase began by installing the new core switch alongside the current hardware and verifying connectivity with the existing firewall and internet. Once connectivity tests were successful System Deployment phase commenced and new equipment was installed at each building’s MDF. New equipment was powered up and connected to the network backbone. Once connectivity with the core was established the endpoint devices such as printers and client computers were connected. After endpoint devices were verified, the next IDF was connected and repeated until each building was on the new network. Verification of endpoint devices included test prints, connecting to the internet, traceroute and ping, and verifying IP-cameras were recording, and shop floor terminals would connect to the MRP database.
 #Once verified this brought us to the Maintenance phase of the project, which involved cable management an labeling of all cables to make future troubleshooting easier.
-Table here
+Table here?
 	take phases mentioned in part 1 and translate these goals
 Goal 1: Network design and upgrade. Create a new network design and replace all obsolete and end-of-life hardware. Completing this goal entailed designing an efficient, robust network, and selecting a single hardware manufacturer for networking hardware, which was qualified by increased network throughput, stability, and ease of management. This was the project’s primary goal consisting of four supporting objectives.
 Objective 1. a. – Inventory and document existing network equipment. This was mainly needed to determine the number of switches, ports and evaluate the network’s future growth. One of the main problems with the current network was that it was a “flat” network with no IP security or IP segmentation or VLANs. Therefore, the current design of the network was not needed and thus needed to be redesigned. This objective was met when an inventory of the existing network equipment was complete along with the documentation, labeling and testing of all the fiber optic cabling performed
@@ -200,7 +201,8 @@ Conclusions
 #Project Deliverables mentioned here
 
 
-F. Project Goals, Objectives, and Deliverables
+F. Project Goals, Objectives and Deliverables
+Goal | Supporting objectives | 
 ●	View Writing the Methodology, Goals, Objectives, and Deliverables Sections.
 In Project Goals, Objectives, and Deliverables (suggested length of 3–5 pages), provide a detailed explanation of the goals and objectives for the project and explain what the project will provide. There should be a specific identification of each goal and objective and a clear and logical description with adequate detail. Address and explain the criteria used to measure the objectives to demonstrate how each goal and objective is measured. The project will include a formal report. In addition, it will likely have a technical IT product, a user's manual, or other documentation. Deliverables should provide a detailed logical explanation of the project to substantiate the work and completion. Include the following in the description: 
 F1. Goals, Objectives, and Deliverables Table
@@ -234,7 +236,7 @@ ii. Objective 2. Deliverables:
 3.	Cat 6 cabling
 4.	Fiber cabling 
 iii. Objective 3. Deliverables:
-1.	Configured switches, configure to work with existing wireless acess points
+1.	Configured switches, configure to work with existing wireless access points
 2.	RE-IP devices and new DHCP pools created
 3.	VLANS for departmental data security and quality of service
 4.	Installed cabling
@@ -286,7 +288,7 @@ https://biztechnologysolutions.com/importance-of-it-standardization/
 VOIP Stringent requirements:
 https://www.ciscopress.com/articles/article.asp?p=2181837&seqNum=11
 
-
+These are examples
 Smyth, A. M., Parker, A. L., & Pease, D. L. (2002). A study of enjoyment of peas. Journal of Abnormal Eating, 8(3), 120-125. Retrieved from 
 http://www.articlehomepage.com/full/url/
 Bernstein, M. (2002). 10 tips on writing the living Web. A List Apart: For People Who Make Websites, 149. Retrieved from http://www.alistapart.com/articles/writeliving
