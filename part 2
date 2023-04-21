@@ -56,7 +56,7 @@ Title of Appendix					X
 Appendix D						X
 Title of Appendix					X
 -above is keep for reference, delete when paper is done-
-Summary……………………………………….……………………………………….………………………………………….……………………2
+Summary……………………………………….……………………………………….………………………………………….……………Done
 Review of Other Work ………………….………………………………………….………….…………………………….……………………2
 Changes to Project Environment ….……….……………..………………….………….…………………………….……………………2
 Methodology .…………………..…………….……………………………………….………….…………………………….……………………2
@@ -88,18 +88,19 @@ Title of Appendix B ………….………………………………………�
 *there is a way to make a table of contents in word but yeah…
 
 Proposal Overview 
-B&B Manufacturing is a medium-sized company of 275 employees located in Valencia, CA. The company consists of 5 adjacent buildings including administration, assembly, manufacturing, and maintenance. Their network is a mix of multi-vendor hardware that lacks standardization, and network separation and it includes equipment that has been deemed end-of-life by the manufacturer. Since the Biden Administration has pushed to bring more manufacturing jobs back to America, the company has seen tremendous growth. Because of this, employees have complained about slow connections to on premise resources such as file stores and ERP systems. Along with this growth the company has also stated they want to replace an aging phone system with an IP-based one.
-
-As a former employee turned managed service provider (MSP) I was hired to assist with documenting, proposing, standardizing, and upgrading the network infrastructure. This process included creating a network diagram of the current network infrastructure, discussing future technology with upper management and on-site suggesting future expansion such as the desired IP phone system, then proposing and installing a solution that will meet both requirements from a single manufacturer. Once the network design and equipment list was approved, the company would requests bids from approved vendors to purchase and installation would take place to install and configure the new network equipment.
-	Phase 1 of the project began with interviewing the on-site IT staff and upper management to determine the needs and expectations of the network, as well as discussing future growth of the company and IP phone system requirements. While these interviews took place, notes of the existing infrastructure were taken and network topology mapping software was used to probe the existing network to confirm logical topology. Physical inspections of adequate cooling and power, along with existing connections between buildings. 
-Phase 2 of the project consisted of designing the network, including the new IP address schemes and VLANS, and compiling a finalized list of equipment for each building and location. Once this list was complete it was emailed to the purchasing department and the equipment was ordered.
-Phase 3 began with receiving, verifying, and configuring the new equipment. The new equipment was powered up thoroughly tested ports protocols and services gathers from phase 1 were taken into account and access control lists were configured on the switches
-installed at the corresponding building locations. 
-The process was carried out then one building at a time beginning with the core of the network in Building 2’s main distribution frame (MDF) then progressing to each intermediate distribution frame (IDF) within the building. Throughout this document, the main distribution frame (MDF) refers to the central connection point for each of the buildings to the rest of the network and IDFs refer to the smaller network closets within the buildings across the corporate campus. The justification for this method was that it minimized the downtime of each of the buildings and ease problem isolation that might arise and could be addressed without affecting the company as a whole. 
-Review of Other work
+B&B Manufacturing is a medium-sized company of 275 employees located in Valencia, CA. The company consists of 5 adjacent buildings including administration, assembly, manufacturing, and maintenance. Their network is a mix of multi-vendor hardware that lacks standardization, and network separation and it includes equipment that has been deemed end-of-life by the manufacturer. Since the Biden Administration has pushed to bring more manufacturing jobs back to America, the company has experienced tremendous growth. Due to this unexpected growth employees had complained about slow connections to on premise resources such as file stores and ERP systems. Along with this growth the company has also stated they want to replace an aging phone system with an IP-based one.
+As a former employee turned managed service provider (MSP) I was hired to assist with documenting, proposing, standardizing, and upgrading the network infrastructure. This process included creating a network diagram of the current network infrastructure, discussing future technology with upper management and on-site suggesting future expansion such as the desired IP phone system, then proposing and installing a solution that would provide them with a secure and reliable network with room for future growth.
+	Phase one of the project began with interviewing the on-site IT staff and upper management to determine the needs and expectations of the network, as well as discussing future growth of the company and IP phone system requirements. While these interviews took place, notes of the existing infrastructure were taken and a site survey was preformed to confirm locations of existing equipment.
+Phase two of the project consisted of determining what equipment to replace 
+of designing the network, including the new IP address schemes DHCP polls and VLANS, then compiling a list of equipment for each building and location. Once this list was complete it was emailed to the purchasing department and the equipment was ordered.
+Phase three began with receiving, verifying, and configuring the new equipment. The new equipment was powered up thoroughly tested ports protocols and services gathered from phase 1 were taken into account and access control lists were configured on the switches. Recommended Quality of Service (QOS) settings were configured on the switches for the future phone system.
+Phase four was carried out then one building at a time beginning with the core of the network in Building 2’s main distribution frame (MDF) then progressing to each intermediate distribution frame (IDF) within the building. Throughout this document, the main distribution frame (MDF) refers to the central connection point for each of the buildings to the rest of the network and IDFs refer to the smaller network closets within the buildings across the corporate campus. The justification for this method was that it minimized the downtime of each of the buildings and ease problem isolation that might arise and could be addressed without affecting the company as a whole. 
+Phase six is when the full switchover from the old equipment to new equipment took place. Once all of the equipment was fully switched over connectively tests were performed from both MDFs and IDFs to insure links were good. After these tests were concluded the old equipment was removed from their locations and returned to the IT department for disposition. Once the equipment was returned then the IT staff was trained on how troubleshoot and networking basics.
+Review of Other Work
 # this is basically quoting articles of the benefits of the technology you are bringing in to solve the companies issue
-Trend Micro a global cybersecurity company recommends network security basics “Network segmentation improves security by controlling the flow of data between different networks. This is most commonly accomplished with virtual local area networks (VLANs).” They should be implemented within all networks including home, business, and internet. Effective network security requires protection of wired and wireless networks with firewalls, anti-malware software, intrusion detection systems, access control, and more.
-During this process, extensive research was done to search for advice, tips, and similar outcomes to gauge the success of the project. Standardized technology reduces complexity and offers benefits such as cost savings through economies of scale, ease of integration, improved efficiency, and better IT support. It also simplifies your management of IT. (Biz Technology Solutions, 2023). One of the recommended ways to make a network more secure and efficient is to setup Virtual Area networks (VLANS).  A VLAN is a logical group of workstations, servers, and network devices that appear to be on the same Local Area Network (LAN) despite their geographical distribution. In a nutshell, hardware on the same VLANs enable traffic between equipment to be separate and more secure.(Cisco, 2020). 
+Trend Micro a global cybersecurity company recommends network security basics “Network segmentation improves security by controlling the flow of data between different networks. This is most commonly accomplished with virtual local area networks (VLANs). They should be implemented within all networks including home, business, and internet. Effective network security requires protection of wired and wireless networks with firewalls, anti-malware software, intrusion detection systems, access control, and more.
+During this process, extensive research was done to search for advice, tips, and similar outcomes to gauge the success of the project. Standardized technology reduces complexity and offers benefits such as cost savings through economies of scale, ease of integration, improved efficiency, and better IT support. It also simplifies your management of IT. (Biz Technology Solutions, 2023).
+ One of the recommended ways to make a network more secure and efficient is to setup Virtual Area networks (VLANS).  A VLAN is a logical group of workstations, servers, and network devices that appear to be on the same Local Area Network (LAN) despite their geographical distribution. In a nutshell, hardware on the same VLANs enable traffic between equipment to be separate and more secure.(Cisco, 2020). 
 # Since this paper is about vlans and new equipment maybe just stick to this:
 In order to determine voice call needs over a network Ciscos white papers were consulted to better plan for VOIP integration. Voice traffic has stringent QoS requirements. If user PCs and IP phones are on the same VLAN, each tries to use the available bandwidth without considering the other device. To avoid this conflict, it is good practice to use separate VLANs for IP telephony and data traffic. (Cisco/Pearson , 2023)
 	After the physical design of the network was completed, it was time to design the logical layout.  The original network was a flat network meaning it had no IP address security segmentation or Virtual Local Area Networks (VLANs). A VLAN is a logical group of workstations, servers, and network devices ___ definition from an article hopefully finds how VLANs help with network traffic or speed (Cisco, DATE). Authors note check out the business routers article-
@@ -114,7 +115,6 @@ One of the dangers of lack of network segmentation is that if a customer or supp
 
 
 The new equipment installed in building 2 consists of 5 Cisco POE switches configured in a stack configuration. Some network switches have the ability to be connected to other switches and operate together as a single unit. These configurations are called stacks. Stacking shows the characteristics and functionality of a single switch, while adding an increased number of ports. Stacks quickly increase the capacity of a network. (Cisco Business: Glossary of New Terms, 2020)
-
 The Proposal Overview section (suggested length of 2–4 pages) introduces the problem and overviews the solution. It contains the "road map" for the rest of the paper. First, describe the problem the project addresses and then provide an overview of the project and the paper's organization. Finally, summarize the capstone's highlights. Include the following in your summary:
 The proposed 
 A.1 Problem Summary
@@ -132,12 +132,6 @@ This is how it’s going to be installed? Need to add more to this
 (read this for ideas: https://github.com/ashejim/C769/blob/main/resources/examples/BSCIA/example_task2-bscia-a.pdf
 )
 After the current environment is mapped the different manufacturers will be examined and a single manufacturer will be determined. By standardizing on a single manufacturer for network equipment simples the administration and network management overhead.
-	 
-
-
-
-
-
 # This section should contain the details of an implementation plan. First, provide details on the different phases (if applicable). Then, explain how the project will be carried out and why it will be carried out in that manner. Finally, discuss the plan for implementing the project.
  A. Review of Other Works and B .1 Relation of Artifacts to Project Development
 ● #See Task 2 part B & B.1 and watch Review of Other Work
@@ -152,12 +146,9 @@ After the current environment is mapped the different manufacturers will be exam
 #Start with an overview of the article, including the work's title and an in-text citation, and summarize the major points discussed. Describe how the work relates to the proposed development of the project (in fulfillment of part B1).
 #Review of work 4
 #Start with an overview of the article, including the work's title and an in-text citation, and summarize the major points discussed. Describe how the work relates to the proposed development of the project (in fulfillment of part B1). C. Project Rationale
-
 ●	View Writing the Rationale and Current Environment Sections.
 #-this is based on the past, no right or wrong only the need to offer sufficient support. Usually rooted in business, technical or user needs. No right or wrong only one that makes sense
 #Summaries should include the rationale for choosing this project, including what makes this problem interesting or significant. The Project Rationale section (suggested length of 1–2 pages) provides a rationale for the project. It should address the reasons for implementing the project, as described in the Proposal Overview. The rationale may include and expand on business and technical reasons to support the implementation. Justify the selection of the project.
-
-
 D. Current Project Environment
 # View Writing the Rationale and Current Environment Sections.
 # - This is based on the present. This is describing how things currently work, what’s wrong with the current system of state of affairs, then the proposed solution and how it addresses what’s wrong. Don’t assume that the reader will understand how this will fix things. Tell them how including what problems might arise with the solution and what long term impacts we might reasonably expect potential problems and expectations are an excellent thing to include.
@@ -165,17 +156,16 @@ D. Current Project Environment
 
 E. Methodology
 #remove lines starting with # when done
-●	# View Writing the Methodology, Goals, Objectives, and Deliverables Sections.
+# View Writing the Methodology, Goals, Objectives, and Deliverables Sections.
 # This section (suggested length of 1–2 pages) describes the specific methodology. The methodology is the process that the project will fill when implemented. Include specific details to adequately describe the steps that will take place to execute the project entirely. Explain how your standard methodology (such as ADDIE or SDLC) will apply to the implementation of the project.
-●	#Identify the standard methodology used. 
 ●	#directly connect steps taken in your process to development phases of the standard methodology, e.g., analysis, design, etc.
 As the project manager, I choose the waterfall methodology model as this is a straightforward, well-defined project management methodology suitable with a well-defined goal that will not change. The waterfall model consists of 6 phases: Requirements, system design, Implementation, Integration, and testing. Deployments of system and maintenance. This is a common model to follow with projects such as this it has clearly defined stages that begin when the preceding stage ends.
 The Requirements phase of this project was satisfied by gathering relevant stakeholders from across the company. These meetings discussed the current state of the network, past issues, the issues to overcome, and a plan for the future phone system. This phase led directly into the system design phase, where based on the information gathered, a new network design was developed to include the number of switches needed, the performance of those switches, and how they will be configured.
 The implementation phase began by generating a list of equipment needed from the system design phase and ordering the equipment from the company’s preferred supplier. This equipment was delivered to the receiving department in building 2 and grouped according to the installation location. Once this equipment was received and added to the IT asset inventory, it was unboxed and configured according to the destination and network best practices according to Cisco. 
 The Integration and Test phase began by installing the new core switch alongside the current hardware and verifying connectivity with the existing firewall and internet. Once connectivity tests were successful System Deployment phase commenced and new equipment was installed at each building’s MDF. New equipment was powered up and connected to the network backbone. Once connectivity with the core was established the endpoint devices such as printers and client computers were connected. After endpoint devices were verified, the next IDF was connected and repeated until each building was on the new network. Verification of endpoint devices included test prints, connecting to the internet, traceroute and ping, and verifying IP-cameras were recording, and shop floor terminals would connect to the MRP database.
 #Once verified this brought us to the Maintenance phase of the project, which involved cable management an labeling of all cables to make future troubleshooting easier.
-Table here?
-	take phases mentioned in part 1 and translate these goals
+
+F. Project Goals and Objectives
 Goal 1: Network design and upgrade. Create a new network design and replace all obsolete and end-of-life hardware. Completing this goal entailed designing an efficient, robust network, and selecting a single hardware manufacturer for networking hardware, which was qualified by increased network throughput, stability, and ease of management. This was the project’s primary goal consisting of four supporting objectives.
 Objective 1. a. – Inventory and document existing network equipment. This was mainly needed to determine the number of switches, ports and evaluate the network’s future growth. One of the main problems with the current network was that it was a “flat” network with no IP security or IP segmentation or VLANs. Therefore, the current design of the network was not needed and thus needed to be redesigned. This objective was met when an inventory of the existing network equipment was complete along with the documentation, labeling and testing of all the fiber optic cabling performed
 	Objective 1. b. Design new network and order hardware. The next step in this process was to create a new network design for the company. This network design was created to be secure, redundant, and adhere to industry practices. Based on the design, an equipment list was created, ordered, and received at Building 2.
@@ -185,7 +175,7 @@ Objective X.a. Verify network documentation. Once the new networking equipment w
 This documentation was stored along with IP addresses, VLAN configurations, and passwords was stored in a fireproof safe in the IT department’s office. 
 During this project, there were two obstacles that caused the project to take longer than expected. The first problem was discovered when the fiber was installed between building 2 and 3. During this phase, it was discovered that the ground conduit had collapsed and the cable could not be pulled through. To rectify this, the concrete had to be removed, the conduit repaired, and buried back in the ground. The next issue did not affect the timeline very much as it was discovered the circuit and ISP modem had to be upgraded to support the new speeds on the inside of the company otherwise this would become a choke point in the network. This was simply a phone call to the ISP and the new hardware was sent out and an ISP technician arrived to install the new equipment during the same time the equipment was being installed throughout the switch install phase.
 Unanticipated Requirements
-	While installing the fiber cabling backbone between buildings it was discovered over time that the underground line connecting building 2 and 3 had been crushed. Once this was discovered the conduit line had to be unburied repaired and then covered up and new cement poured. This delayed the project caused a delay in the project by 2 weeks because the cabling was over a frequently used driveway but did not cause any issues with the budget. 
+While installing the fiber cabling backbone between buildings it was discovered over time that the underground line connecting building 2 and 3 had been crushed. Once this was discovered the conduit line had to be unburied repaired and then covered up and new cement poured. This delayed the project caused a delay in the project by 2 weeks because the cabling was over a frequently used driveway but did not cause any issues with the budget. 
 The unanticipated requirement was when it was discovered that the ISP modem and circuit needed to be upgraded to allow for the new bandwidth needs of the company. Since this was discovered during the beginning of the installation phase this did not affect the schedule as this upgrade took place at the same time. As for the circuit and modem upgrade, this was at no cost to the customer as this was included with the business internet plan. 
 Conclusions 
 The success of this project was determined by the positive and helpful response from the administrative and on-site IT staff. Another determining factor is that not a single network crash or slowdown – even during peak business hours- had occurred since the installation of the new equipment. Administrative staff had commented on how the network shares did not “hesitate” when opening frequently used folders like it previously did. Shop floor and tool crib attendants commented on how quicker and more responsive the MRP system felt.
@@ -196,17 +186,15 @@ Conclusions
 #Add conclusions here
 #Project Deliverables
 #Project Deliverables mentioned here
-
-
-F. Project Goals, Objectives and Deliverables
-Goal | Supporting objectives | 
-●	View Writing the Methodology, Goals, Objectives, and Deliverables Sections.
-In Project Goals, Objectives, and Deliverables (suggested length of 3–5 pages), provide a detailed explanation of the goals and objectives for the project and explain what the project will provide. There should be a specific identification of each goal and objective and a clear and logical description with adequate detail. Address and explain the criteria used to measure the objectives to demonstrate how each goal and objective is measured. The project will include a formal report. In addition, it will likely have a technical IT product, a user's manual, or other documentation. Deliverables should provide a detailed logical explanation of the project to substantiate the work and completion. Include the following in the description: 
-F1. Goals, Objectives, and Deliverables Table
-●	View Writing the Methodology, Goals, Objectives, and Deliverables Sections.
+#F. Project Goals, Objectives and Deliverables
+#Goal | Supporting objectives | 
+#View Writing the Methodology, Goals, Objectives, and Deliverables Sections.
+#In Project Goals, Objectives, and Deliverables (suggested length of 3–5 pages), provide a detailed explanation of the goals and objectives for the project and explain what the project will provide. There should be a specific identification of each goal and objective and a clear and logical description with adequate detail. Address and explain the criteria used to measure the objectives to demonstrate how each goal and objective is measured. The project will include a formal report. In addition, it will likely have a technical IT product, a user's manual, or other documentation. Deliverables should provide a detailed logical explanation of the project to substantiate the work and completion. Include the following in the description: 
+#F1. Goals, Objectives, and Deliverables Table
+#View Writing the Methodology, Goals, Objectives, and Deliverables Sections.
 Every project has one or more goals. Each goal is supported by at least one project objective. Each objective is enabled by at least one project deliverable. Fill out this or a similarly organized table:
 
-	#Goal	Supporting objectives	Deliverables enabling the project objectives
+#Goal	Supporting objectives	Deliverables enabling the project objectives
 #1	Summarize project goal 1	
 #1.a. Describe project objective 1.a.	
 #1.a.i. Explain project deliverable 1.a.i
@@ -222,7 +210,6 @@ Every project has one or more goals. Each goal is supported by at least one proj
 2.b.i. Explain project deliverable 2.b.i
 2.b.ii. Explain project deliverable 2.b.ii
 Project Deliverables
-•	This is from Part 1:
 i. Objective 1 Deliverables
 1. Updated network topology diagram
 2. Site map
@@ -244,11 +231,8 @@ V: Objective 5. Deliverables:
 2.	New equipment is up and running without issue
 3.	IT staff is trained
 h.	Projected Project End Date – May 31 2023
-
-
 F.2 Goals, Objectives, and Deliverables Descriptions
 Describe each of the project goals. Describe each objective. Explain how the objectives support the goals and explain how the objectives will be achieved. Explain what types of deliverables the project will provide, and describe the project deliverables expected by the end of the project. Finally, define the goals, objectives, and deliverables that align with the Goals, Objectives, and Deliverables Table.
-
 G.	Project Timeline with Milestones
 ●	View Writing the Timeline and Outcomes Sections.
 This section (suggested length of 1–2 pages) provides a projected timeline with milestones for the project. These may be estimates that will most likely be adjusted, as the project will often require adjustments during the development and implementation phases. 
@@ -256,9 +240,6 @@ This section (suggested length of 1–2 pages) provides a projected timeline wit
 ●	include a table (as below) with projected milestones, duration, start, and end dates. Projections should be as authentic as possible without regard to academic plans. Dates from task 2 must be in the future, and dates from task 3 must be in the past -they do not need to align.  
 Milestone or deliverable	Duration 
 (hours or days)	Projected start date	anticipated end date
-			
-			
-
 H.	Outcome
 ●	View Writing the Timeline and Outcomes Sections.
 This section describes the anticipated project outcomes and explains how the project's success will be measured once completed. Next, define the expected project outcomes and describe the evaluation framework to be used once the project is completed to assess the project's success and effectiveness.
@@ -274,44 +255,13 @@ o	We recommend using MS Word's 'reference' feature to manage citations and your 
 ▪	Use consistent formatting.
 ▪	Use hanging Indent.
 ▪	Right-click to remove hyperlinks.
-o	Get the best writing help from the writing experts: WGU Writing Center. You can set up an appointment or send them your document for review and suggestions. 
-Trend Micro in other works: https://www.trendmicro.com/en_us/what-is/network-security/network-security-basics.html
-Vlans Cisco 2020 “in other works”
-https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/1778-tz-VLAN-Best-Practices-and-Security-Tips-for-Cisco-Business-Routers.html#some-quick-vocabulary-for-the-newbies
-Benefits of a managed switch
-https://uniontestprep.com/comptia-a-core-series-exam/blog/network-switches-managed-vs-unmanaged
-Importance of Standardization:
-https://biztechnologysolutions.com/importance-of-it-standardization/
+Get the best writing help from the writing experts: WGU Writing Center. You can set up an appointment or send them your document for review and suggestions. 
 
-VOIP Stringent requirements:
-https://www.ciscopress.com/articles/article.asp?p=2181837&seqNum=11
+My stuff:
+Cisco Datasheet on VOIP
+“IP Telephony – Best Practices Part 1” datasheet 1992-2006
+https://www.cisco.com/c/dam/en_us/about/ciscoitatwork/downloads/ciscoitatwork/pdf/IPT_Best_Practices_Transcript_1.pdf
 
-These are examples
-Smyth, A. M., Parker, A. L., & Pease, D. L. (2002). A study of enjoyment of peas. Journal of Abnormal Eating, 8(3), 120-125. Retrieved from 
-http://www.articlehomepage.com/full/url/
-Bernstein, M. (2002). 10 tips on writing the living Web. A List Apart: For People Who Make Websites, 149. Retrieved from http://www.alistapart.com/articles/writeliving
-Bell, T., & Phillips, T. (2008, May 6). A solar flare. Science @ NASA Podcast. Podcast retrieved from http://science.nasa.gov/podcast.htm
-OLPC Peru/Arahuay. (n.d.). Retrieved April 29, 2011, from the OLPC Wiki: http://wiki.laptop. org/go/OLPC_Peru/Arahuay
-Plath, S. (2000). The unabridged journals. K. V. Kukil (Ed.). New York, NY: Anchor.
-
-
-
-
- 
-Appendix A
-Title of Appendix
-Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed. 
-Appendix B
-Title of Appendix
-Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed. 
-Appendix C
-Title of Appendix
-Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed. 
-Appendix D
-Title of Appendix
-Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed.
-
-References
 According to the VLAN Best Practices and Security tips Guide?
 https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/1778-tz-VLAN-Best-Practices-and-Security-Tips-for-Cisco-Business-Routers.html
 
@@ -333,14 +283,41 @@ VOIP jitter stuff mentioned
 https://www.unitedworldtelecom.com/blog/voip-qos/
 new idea
 https://documentation.meraki.com/MR/Wi-Fi_Basics_and_Best_Practices/What_is_Jitter%3F
-
 Stack configuration mentioned (Cisco Business: Glossary of New Terms):
 https://www.cisco.com/c/en/us/support/docs/smb/switches/Cisco-Business-Switching/kmgmt-2331-glossary-of-non-bias-language.html
+Trend Micro in other works: https://www.trendmicro.com/en_us/what-is/network-security/network-security-basics.html
+Vlans Cisco 2020 “in other works”
+https://www.cisco.com/c/en/us/support/docs/smb/routers/cisco-rv-series-small-business-routers/1778-tz-VLAN-Best-Practices-and-Security-Tips-for-Cisco-Business-Routers.html#some-quick-vocabulary-for-the-newbies
+Benefits of a managed switch
+https://uniontestprep.com/comptia-a-core-series-exam/blog/network-switches-managed-vs-unmanaged
+Importance of Standardization:
+https://biztechnologysolutions.com/importance-of-it-standardization/
 
+VOIP Stringent requirements:
+https://www.ciscopress.com/articles/article.asp?p=2181837&seqNum=11
+
+These are examples
+Smyth, A. M., Parker, A. L., & Pease, D. L. (2002). A study of enjoyment of peas. Journal of Abnormal Eating, 8(3), 120-125. Retrieved from 
+http://www.articlehomepage.com/full/url/
+Bernstein, M. (2002). 10 tips on writing the living Web. A List Apart: For People Who Make Websites, 149. Retrieved from http://www.alistapart.com/articles/writeliving
+Bell, T., & Phillips, T. (2008, May 6). A solar flare. Science @ NASA Podcast. Podcast retrieved from http://science.nasa.gov/podcast.htm
+OLPC Peru/Arahuay. (n.d.). Retrieved April 29, 2011, from the OLPC Wiki: http://wiki.laptop. org/go/OLPC_Peru/Arahuay
+Plath, S. (2000). The unabridged journals. K. V. Kukil (Ed.). New York, NY: Anchor.
+Appendix A
+Title of Appendix
+Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed. 
+Appendix B
+Title of Appendix
+Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed. 
+Appendix C
+Title of Appendix
+Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed. 
+Appendix D
+Title of Appendix
+Put any supporting material in these appendices. Add additional or delete superfluous appendices as needed.
 Project deliverables
 •	VLAN Excel graph
 •	After the topology image 
 Appendix A: Final network diagrams of the physical topology of the campus. Included on these diagrams are the design notes and the connection speeds between the switches
 Appendix B contains screenshots of the spreadsheets that document the IP address and VLAN schemes for the company
 Appendix C contains screenshots of the network monitoring software that was installed to assist with the configuration, troubleshooting, and day-to-day monitoring of the new network equipment. Passler?
-
