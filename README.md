@@ -1,3 +1,6 @@
+interesting part on health network:
+https://medium.com/the-elegant-network/is-my-network-healthy-aa7021fcdb83
+
 ### Task 2 stuff here:
 https://ashejim.github.io/C769/resources.html#resources-examples
 
